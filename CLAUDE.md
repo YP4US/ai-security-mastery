@@ -1,6 +1,6 @@
 # CLAUDE.md — AI Security Mastery Repo
 # Yogesh Pawar | Career Pivot: AI Governance + AI Security Engineering
-# Start date: July 14, 2026 | Target first offer: November 30, 2026
+# Start date: July 15, 2026 | Target first offer: November 30, 2026 (Day 139)
 
 ---
 
@@ -18,16 +18,16 @@ This repo IS his study plan, daily tracker, and portfolio. Every file in it matt
 README.md                          ← Master overview + daily schedule
 PROGRESS.md                        ← Running tracker (update every session end)
 chapters/
-  ch00-orientation/                ← Setup (Days 1–3)
+  ch00-orientation/                ← Setup (Days 1–2)
   ch00b-ai-governance-track/       ← Track A: AI Governance (Weeks 1–6, parallel)
-  ch01-foundations/                ← Python + Linux + Networking (Days 4–18)
-  ch02-security-core/              ← CompTIA Security+ (Days 19–33)
-  ch03-cloud-security/             ← AWS SAA-C03 (Days 34–43)
-  ch04-ai-ml-fundamentals/         ← LLM internals + Vizuara series (Days 44–57)
-  ch05-ai-red-teaming/             ← AI Red Teaming tools (Days 58–71)
-  ch06-mlsecops/                   ← MLSecOps pipelines (Days 72–85)
-  ch07-projects/                   ← Portfolio projects (Days 86–101)
-  ch08-job-hunt/                   ← Applications + offers (Days 102–140)
+  ch01-foundations/                ← Python + Linux + Networking (Days 3–17)
+  ch02-security-core/              ← CompTIA Security+ (Days 18–32)
+  ch03-cloud-security/             ← AWS SAA-C03 (Days 33–42)
+  ch04-ai-ml-fundamentals/         ← LLM internals + Vizuara series (Days 43–56)
+  ch05-ai-red-teaming/             ← AI Red Teaming tools (Days 57–70)
+  ch06-mlsecops/                   ← MLSecOps pipelines (Days 71–84)
+  ch07-projects/                   ← Portfolio projects (Days 85–100)
+  ch08-job-hunt/                   ← Applications + offers (Days 101–139)
 daily-logs/                        ← YYYY-MM-DD-day-NNN.md (one per day)
 weekly-reviews/                    ← week-NN-YYYY-MM-DD.md (one per week)
 resources/
@@ -64,16 +64,16 @@ portfolio/                         ← All projects and published work
 ## DAILY SCHEDULE (Yogesh follows this every day)
 
 ```
-06:30–07:00   Morning message to Claude Code → get today's briefing
-07:00–09:00   Deep Work Block 1 (Track B technical content)
-09:15–11:15   Lab/Hands-on Block (TryHackMe, tools, coding)
-11:15–12:00   Vizuara series (2 videos/day — track in resources/vizuara-watch-log.md)
-12:00–13:00   Lunch (no screens)
-13:00–16:30   Track A Block (governance frameworks, AIGP study, portfolio)
-16:30–17:30   LinkedIn post or portfolio writing
-17:30–18:00   Job research (save 3 roles to track-a-job-targets.md)
-19:00–20:30   Light study (Anki, reading, 1 article)
-20:30–21:00   Evening message to Claude Code → report progress, Claude updates files
+08:00–08:30   Morning message to Claude Code → get today's briefing
+08:30–10:30   Deep Work Block 1 (Track B technical content)
+10:45–12:45   Lab/Hands-on Block (TryHackMe, tools, coding)
+12:45–13:30   Vizuara series (2 videos/day — track in resources/vizuara-watch-log.md)
+13:30–14:30   Lunch (no screens)
+14:30–18:00   Track A Block (governance frameworks, AIGP study, portfolio)
+18:00–19:00   LinkedIn post or portfolio writing
+19:00–19:30   Job research (save 3 roles to track-a-job-targets.md)
+20:30–22:00   Light study (Anki, reading, 1 article)
+22:00–22:30   Evening message to Claude Code → report progress, Claude updates files
 ```
 
 ---
@@ -101,21 +101,21 @@ When Yogesh sends a morning message, you MUST:
 🔥 VIZUARA VIDEOS TODAY
   Video #[N]: [title from vizuara-watch-log.md]
   Video #[N+1]: [title from vizuara-watch-log.md]
-  Watch during: 11:15–12:00
+  Watch during: 12:45–13:30
   Security lens question: [one pointed question connecting today's video to security]
 
-🌅 MORNING BLOCK (07:00–11:15) — TRACK B
+🌅 MORNING BLOCK (08:30–12:45) — TRACK B
   [Specific tasks from today's chapter file — be concrete, not vague]
   [ ] Task 1 with exact details
   [ ] Task 2 with exact details
   [ ] Task 3 with exact details
 
-☀️ AFTERNOON BLOCK (13:00–17:30) — TRACK A
+☀️ AFTERNOON BLOCK (14:30–19:00) — TRACK A
   [Specific tasks from ch00b for today — be concrete]
   [ ] Task 1 with exact details
   [ ] Task 2 with exact details
 
-🌙 EVENING (19:00–20:30)
+🌙 EVENING (20:30–22:00)
   [ ] Anki flashcard review (min 15 min)
   [ ] [specific reading or light task]
 
@@ -125,7 +125,7 @@ When Yogesh sends a morning message, you MUST:
   [Streak: N days — keep it going!]
 
 📊 QUICK STATS
-  Days done: [N] / 140
+  Days done: [N] / 139
   Vizuara: [N] / 43 videos watched
   Track A applications sent: [N]
   Current streak: [N] days
@@ -196,6 +196,7 @@ Example: `Day 1 complete — environment setup done, NIST AI RMF notes started`
 ## WHAT YOU MUST NEVER DO
 
 - Never say "I can't read files" — you can. Read PROGRESS.md before every briefing.
+- The plan runs 139 days total (Day 1 = July 15, 2026). Old "Day 1 + Day 2" content (originally split across July 14–15) was merged into a single Day 1 on July 15 — every day number from Day 3 onward is 1 less than the original plan's numbering, though calendar dates for Ch01 onward are unchanged.
 - Never give a generic response — always read the actual chapter file for today's specific tasks.
 - Never ask Yogesh to explain the plan — it's all in the files. Read them.
 - Never skip the git commit at end of evening session — it's the accountability system.
@@ -228,8 +229,8 @@ Example: `Day 1 complete — environment setup done, NIST AI RMF notes started`
 
 | Date | Event |
 |------|-------|
-| July 14, 2026 | Day 1 — START |
-| August 5, 2026 | Vizuara series complete (Day ~22) |
+| July 15, 2026 | Day 1 — START |
+| August 5, 2026 | Vizuara series complete (Day ~21) |
 | August 14, 2026 | Security+ exam |
 | August 22, 2026 | AIGP exam |
 | August 24, 2026 | AWS SAA exam |

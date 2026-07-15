@@ -1,7 +1,7 @@
 # Chapter 0: Orientation & Environment Setup
-## Days 1–3 | July 14–16, 2026
+## Days 1–2 | July 15–16, 2026
 
-> **Goal:** Have a fully configured development and security research environment ready to go. Zero friction from Day 4 onward.
+> **Goal:** Have a fully configured development and security research environment ready to go. Zero friction from Day 3 onward.
 
 ---
 
@@ -15,16 +15,18 @@ The job market gap you're closing is not a knowledge gap. It's a tooling and pos
 
 ---
 
-## Day 1 — July 14 (Today)
+## Day 1 — July 15 (Today)
 
-### Morning Block (07:00–09:00): Read & Plan
+> **Note:** Day 1 covers everything originally planned for the first two orientation days — full environment setup, first garak scan, MITRE ATLAS, and the DeepLearning.AI course — since the plan's start date moved from July 14 to July 15. Expect this day to run long; nothing was cut.
+
+### Block 1 (08:30–10:30): Read & Plan
 - [ ] Read the master README.md top to bottom (you just did this)
 - [ ] Read this file completely
 - [ ] Open PROGRESS.md and fill in your start date
 - [ ] Watch: "What is AI Red Teaming?" (YouTube search: "AI red teaming explained 2026" — pick a video under 20 min)
 - [ ] Watch: "DevSecOps vs MLSecOps vs AI Red Teaming" (search YouTube)
 
-### Lab Block (09:15–11:15): Environment Setup Part 1
+### Block 2 (10:45–12:45): Environment Setup Part 1
 **Install these tools — every single one:**
 
 ```bash
@@ -60,7 +62,10 @@ pip install jupyter notebook
 pip install openai anthropic
 ```
 
-### Afternoon Block (13:00–15:00): Environment Setup Part 2
+### Block 3 (12:45–13:30): Vizuara Break
+- [ ] Videos #1 + #2 (Series intro + LLM overview)
+
+### Block 4 (14:30–16:30): Environment Setup Part 2
 ```bash
 # 7. Install Docker (for containerized security labs)
 # https://docs.docker.com/get-docker/
@@ -87,7 +92,7 @@ AWS_SECRET_ACCESS_KEY=your_key_here
 EOF
 ```
 
-### Project Block (15:15–17:15): Setup Part 3
+### Block 5 (16:45–18:00): Environment Setup Part 3
 - [ ] Create account on TryHackMe.com (free tier to start)
 - [ ] Complete your TryHackMe profile (real name, Ottawa location)
 - [ ] Create account on HackTheBox.com (free)
@@ -95,16 +100,11 @@ EOF
 - [ ] Bookmark ALL resources from master README
 - [ ] Set up LinkedIn — update headline to: "AI/ML Security Researcher | Building @ Mediqrate & PracticeCLB | Adversarial ML | 9 IEEE Publications"
 
-### Evening Block (19:00–20:30): Reading
+### Block 6 (18:00–19:00): Reading
 - [ ] Read: https://mlsecops.com/what-is-mlsecops (20 min)
 - [ ] Read: OWASP LLM Top 10 overview (just the names + 1-line descriptions for now): https://owasp.org/www-project-top-10-for-large-language-model-applications/
-- [ ] Write your Day 1 log
 
----
-
-## Day 2 — July 15
-
-### Morning Block (07:00–09:00): Framework Deep Read
+### Block 7 (19:30–20:30): Framework Deep Read
 **MITRE ATLAS — This is your bible. Learn it cold.**
 - [ ] Go to: https://atlas.mitre.org
 - [ ] Read the "About" section completely
@@ -112,7 +112,7 @@ EOF
 - [ ] For each tactic, read 2–3 technique descriptions
 - [ ] Create a new file: `resources/mitre-atlas-notes.md` — write a 1-sentence summary of each tactic in your own words
 
-### Lab Block (09:15–11:15): First garak Run
+### Block 8 (20:30–22:00): First garak Run + DeepLearning.AI Course
 ```bash
 # Activate your environment
 source ~/security-env/bin/activate
@@ -123,7 +123,7 @@ garak --model_type ollama --model_name llama3.2:1b --probes encoding
 garak --model_type ollama --model_name llama3.2:1b --probes promptinject
 
 # Save the output report
-# garak creates a report file — find it and save to portfolio/day2-first-garak-run/
+# garak creates a report file — find it and save to portfolio/day1-first-garak-run/
 ```
 
 **Observation journal** — after running garak, write in your daily log:
@@ -131,29 +131,26 @@ garak --model_type ollama --model_name llama3.2:1b --probes promptinject
 2. What vulnerabilities did it find (if any)?
 3. What do you not understand yet about the output?
 
-### Afternoon Block (13:00–17:15): Course Start
 - [ ] Go to: https://learn.deeplearning.ai/courses/red-teaming-llm-applications
 - [ ] Complete ALL lessons (free, ~1 hour total)
 - [ ] Take notes in `resources/deeplearning-ai-notes.md`
 - [ ] Try: https://gandalf.lakera.ai — attempt all 7 levels, note your techniques
-
-### Evening Block (19:00–20:30)
 - [ ] Watch YouTube: "Prompt Injection Explained" by Johann Rehberger (search: "Rehberger prompt injection")
 - [ ] Start reading: NIST AI Risk Management Framework overview (https://airc.nist.gov)
-- [ ] Write Day 2 log + git commit
+- [ ] Write Day 1 log + git commit
 
 ---
 
-## Day 3 — July 16
+## Day 2 — July 16
 
-### Morning Block (07:00–09:00): The Big Picture Read
+### Morning Block (08:30–10:30): The Big Picture Read
 Today is strategic — you're learning how everything connects.
 
 - [ ] Read: https://www.practical-devsecops.com/ai-red-teaming-beginners-guide/ (complete article)
 - [ ] Read: https://dualitytech.com/blog/shifting-from-devsecops-to-mlsecops/ (complete)
 - [ ] Create `resources/field-map.md` — draw (in text/ASCII) how DevSecOps → MLSecOps → AI Red Teaming relate to each other
 
-### Lab Block (09:15–11:15): PyRIT Introduction
+### Lab Block (10:45–12:45): PyRIT Introduction
 ```bash
 # Install PyRIT (Microsoft's AI red teaming toolkit)
 pip install pyrit
@@ -162,19 +159,19 @@ pip install pyrit
 # https://github.com/Azure/PyRIT/blob/main/doc/quickstart.ipynb
 # Run through the basic example in Jupyter notebook
 jupyter notebook
-# Create: portfolio/day3-pyrit-intro.ipynb
+# Create: portfolio/day2-pyrit-intro.ipynb
 ```
 
-### Afternoon Block (13:00–17:15): LinkedIn Content + GitHub
+### Afternoon Block (14:30–18:45): LinkedIn Content + GitHub
 - [ ] Write your first LinkedIn post (100–150 words):
-  *"I'm publicly committing to mastering AI security over the next 110 days. I have 9 published papers in adversarial ML and today I ran my first LLM red-teaming scan using garak. Day 2 findings: [what you found]. Following this daily. #AISecurity #RedTeaming #MLSecOps"*
+  *"I'm publicly committing to mastering AI security over the next 110 days. I have 9 published papers in adversarial ML and today I ran my first LLM red-teaming scan using garak. Day 1 findings: [what you found]. Following this daily. #AISecurity #RedTeaming #MLSecOps"*
 - [ ] Push your repo to GitHub (make it public — it's your portfolio)
 - [ ] Add a good README to your GitHub profile repo
 
-### Evening Block (19:00–20:30): Week 1 Prep
+### Evening Block (20:30–22:00): Week 1 Prep
 - [ ] Read Ch01 README (your next chapter) completely
 - [ ] Enroll in TryHackMe Pre-Security path (free)
-- [ ] Write Day 3 log + **weekly review for Week 1 setup**
+- [ ] Write Day 2 log + **weekly review for Week 1 setup**
 
 ---
 

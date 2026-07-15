@@ -19,8 +19,8 @@ Then give me my full morning briefing in the format from CLAUDE.md.
 
 ## How to fill in [N]
 
-Day 1 = July 14, 2026
-Day 2 = July 15, 2026
+Day 1 = July 15, 2026
+Day 2 = July 16, 2026
 ...and so on.
 
 Or just say "Good morning, please give me today's briefing" — Claude will read PROGRESS.md to figure out what day it is.

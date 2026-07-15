@@ -1,5 +1,5 @@
 # 🛡️ AI Security Mastery — Yogesh Pawar's Career Pivot Roadmap
-### Dual-Track Plan | July 14 → November 30, 2026
+### Dual-Track Plan | July 15 → November 30, 2026 (139 days)
 
 > **Your unfair advantages:** 9 published IEEE papers in adversarial ML · M.A.Sc. Information Systems Security · 2 live AI SaaS products you built and secured · Founder-level understanding of AI risk. You are not starting from zero.
 
@@ -52,8 +52,8 @@ Salary  : CAD $130K–$220K+
 
 | Phase | Dates | Chapter | Focus | Track | Status |
 |-------|-------|---------|-------|-------|--------|
-| **0** | Jul 14–16 | Ch00 | Setup + environment | Both | ⬜ |
-| **0B** | Jul 14–Aug 22 | Ch00B | **AI Governance Track** (parallel) | A | ⬜ |
+| **0** | Jul 15–16 | Ch00 | Setup + environment | Both | ⬜ |
+| **0B** | Jul 15–Aug 22 | Ch00B | **AI Governance Track** (parallel) | A | ⬜ |
 | **1** | Jul 17–Jul 31 | Ch01 | Python + Linux + Networking | B | ⬜ |
 | **2** | Aug 1–Aug 14 | Ch02 | Security core + CompTIA S+ | B | ⬜ |
 | **3** | Aug 15–Aug 24 | Ch03 | Cloud Security + AWS SAA | B | ⬜ |
@@ -69,36 +69,36 @@ Salary  : CAD $130K–$220K+
 
 ## ⏰ UPDATED DAILY SCHEDULE (Dual-Track)
 
-### Weeks 1–6 (Jul 14 – Aug 22): Building Both Tracks Simultaneously
+### Weeks 1–6 (Jul 15 – Aug 22): Building Both Tracks Simultaneously
 
 ```
-06:00 – 06:30   Morning ritual (water, walk, NO phone)
-06:30 – 07:00   Review today's plan in this README
+07:30 – 08:00   Morning ritual (water, walk, NO phone)
+08:00 – 08:30   Review today's plan in this README
 
 ── TRACK B BLOCK (Security/Technical) ─────────────────────────
-07:00 – 09:00   🔴 DEEP WORK 1 — Ch01/Ch02/Ch03 technical content
-09:00 – 09:15   Break
-09:15 – 11:15   🔴 DEEP WORK 2 — Labs, TryHackMe, hands-on tools
+08:30 – 10:30   🔴 DEEP WORK 1 — Ch01/Ch02/Ch03 technical content
+10:30 – 10:45   Break
+10:45 – 12:45   🔴 DEEP WORK 2 — Labs, TryHackMe, hands-on tools
 
 ── SHARED LEARNING ─────────────────────────────────────────────
-11:15 – 12:00   Vizuara LLM Series (2 videos/day — see Ch04 for schedule)
+12:45 – 13:30   Vizuara LLM Series (2 videos/day — see Ch04 for schedule)
 
-12:00 – 13:00   Lunch + REST (no screens)
+13:30 – 14:30   Lunch + REST (no screens)
 
 ── TRACK A BLOCK (Governance/Frameworks) ───────────────────────
-13:00 – 15:00   🟡 TRACK A — Ch00B governance frameworks + reading
-15:00 – 15:15   Break
-15:15 – 16:30   🟡 TRACK A — AIGP cert prep / NIST AI RMF / EU AI Act
+14:30 – 16:30   🟡 TRACK A — Ch00B governance frameworks + reading
+16:30 – 16:45   Break
+16:45 – 18:00   🟡 TRACK A — AIGP cert prep / NIST AI RMF / EU AI Act
 
 ── CONTENT + APPLICATION ───────────────────────────────────────
-16:30 – 17:30   Write 1 LinkedIn post OR work on portfolio piece
-17:30 – 18:00   Job search: save 3 Track A roles, research companies
+18:00 – 19:00   Write 1 LinkedIn post OR work on portfolio piece
+19:00 – 19:30   Job search: save 3 Track A roles, research companies
 
-18:00 – 19:00   Dinner + genuine rest
-19:00 – 20:30   🟢 LIGHT — Anki flashcards, read 1 article, Vizuara video
+19:30 – 20:30   Dinner + genuine rest
+20:30 – 22:00   🟢 LIGHT — Anki flashcards, read 1 article, Vizuara video
 
-20:30 – 21:00   Daily log + Git commit + tomorrow's plan
-21:00 –         Wind down. No learning. Protect sleep.
+22:00 – 22:30   Daily log + Git commit + tomorrow's plan
+22:30 –         Wind down. No learning. Protect sleep.
 ```
 
 **Total productive hours: ~10/day**
@@ -129,16 +129,16 @@ ai-security-mastery/
 ├── README.md                    ← YOU ARE HERE
 ├── PROGRESS.md                  ← Update every Sunday
 ├── chapters/
-│   ├── ch00-orientation/        ← Setup (Days 1–3)
+│   ├── ch00-orientation/        ← Setup (Days 1–2)
 │   ├── ch00b-ai-governance-track/ ← NEW: Track A (Weeks 1–6, parallel)
-│   ├── ch01-foundations/        ← Python + Linux + Net (Days 4–18)
-│   ├── ch02-security-core/      ← Security+ prep (Days 19–33)
-│   ├── ch03-cloud-security/     ← AWS SAA (Days 34–43)
-│   ├── ch04-ai-ml-fundamentals/ ← LLM internals + Vizuara (Days 44–57)
-│   ├── ch05-ai-red-teaming/     ← Core specialty (Days 58–71)
-│   ├── ch06-mlsecops/           ← Pipelines + defenses (Days 72–85)
-│   ├── ch07-projects/           ← Portfolio builds (Days 86–101)
-│   └── ch08-job-hunt/           ← Applications + offers (Days 102–140)
+│   ├── ch01-foundations/        ← Python + Linux + Net (Days 3–17)
+│   ├── ch02-security-core/      ← Security+ prep (Days 18–32)
+│   ├── ch03-cloud-security/     ← AWS SAA (Days 33–42)
+│   ├── ch04-ai-ml-fundamentals/ ← LLM internals + Vizuara (Days 43–56)
+│   ├── ch05-ai-red-teaming/     ← Core specialty (Days 57–70)
+│   ├── ch06-mlsecops/           ← Pipelines + defenses (Days 71–84)
+│   ├── ch07-projects/           ← Portfolio builds (Days 85–100)
+│   └── ch08-job-hunt/           ← Applications + offers (Days 101–139)
 ├── daily-logs/                  ← YYYY-MM-DD.md
 ├── weekly-reviews/
 ├── resources/                   ← Cheatsheets + notes
@@ -161,7 +161,7 @@ It fits into **Ch04 (Days 44–57)** as the technical backbone, NOT as a prerequ
 
 - For **Track B (Security):** Understanding transformer internals is directly relevant to adversarial attacks. Knowing *how* tokenization works explains *why* certain prompt injections succeed. This is not optional background — it is the mathematical foundation of everything in Ch05.
 
-- **Scheduling fit:** 43 videos × avg ~25 min = ~18 hours total. Watching 2 videos per day at 11:15–12:00 covers it in 22 days. It fits perfectly into the morning-block gap between Ch01/Ch02 labs and the Track A afternoon block — Weeks 1–4.
+- **Scheduling fit:** 43 videos × avg ~25 min = ~18 hours total. Watching 2 videos per day at 12:45–13:30 covers it in ~21 days (Day 1 catches up with 4 videos). It fits perfectly into the morning-block gap between Ch01/Ch02 labs and the Track A afternoon block — Weeks 1–4.
 
 **Do NOT watch it all before starting. Watch 2 per day as scheduled.**
 
@@ -222,4 +222,4 @@ BOTH TRACKS:
 
 ---
 
-*Last updated: July 14, 2026 | Start date: Day 1 is TODAY*
+*Last updated: July 15, 2026 | Start date: Day 1 is TODAY*

@@ -1,5 +1,5 @@
 # Chapter 4: AI/ML Fundamentals — LLM Internals + Vizuara Series
-## Days 44–57 | August 25 – September 7, 2026
+## Days 43–56 | August 25 – September 7, 2026
 
 > **This chapter serves BOTH tracks:**
 > - Track A: Understand *how* LLMs work so you can assess their risks intelligently (not just recite framework names)
@@ -15,10 +15,10 @@
 
 ### How to Watch It Effectively
 
-**DO NOT binge-watch.** The series is scheduled 2 videos/day during the 11:15–12:00 morning break slot starting Week 1, so by Week 4 (Day ~30) you'll have finished all 43 videos. This means you arrive at Chapter 4 having already watched the full series, and Chapter 4 becomes the *application* and *security-translation* layer on top of it.
+**DO NOT binge-watch.** The series is scheduled 2 videos/day during the 12:45–13:30 morning break slot starting Week 1, so by Week 4 (Day ~29) you'll have finished all 43 videos. This means you arrive at Chapter 4 having already watched the full series, and Chapter 4 becomes the *application* and *security-translation* layer on top of it.
 
-**Viewing schedule (starting Day 1, Jul 14):**
-- Each morning break 11:15–12:00: 2 videos (~25 min each = 50 min, fits perfectly)
+**Viewing schedule (starting Day 1, Jul 15):**
+- Each morning break 12:45–13:30: 2 videos (~25 min each = 50 min, fits perfectly)
 - Full series: 43 videos ÷ 2/day = 22 days → Series complete by ~August 5
 
 **Watch with a security lens. For each video, ask:**
@@ -49,11 +49,11 @@
 
 ## Chapter 4 Day-by-Day (Starting Aug 25, after watching full Vizuara series)
 
-### Days 44–46 (Aug 25–27): Translate Theory → Security Language
+### Days 43–45 (Aug 25–27): Translate Theory → Security Language
 
 By now you've watched the full Vizuara series. Chapter 4 is about making it operational.
 
-#### Day 44 — The Security Translation Exercise
+#### Day 43 — The Security Translation Exercise
 Create: `resources/llm-internals-to-security-map.md`
 
 ```markdown
@@ -100,7 +100,7 @@ Create: `resources/llm-internals-to-security-map.md`
   and a locked door."
 ```
 
-#### Day 45 — RAG Systems: Deep Dive for Both Tracks
+#### Day 44 — RAG Systems: Deep Dive for Both Tracks
 
 **For Track A (Risk Assessment):**
 ```markdown
@@ -160,7 +160,7 @@ print("Testing indirect injection via RAG...")
 # Document what you observe
 ```
 
-#### Day 46 — Agentic AI: The 2026 Attack Surface
+#### Day 45 — Agentic AI: The 2026 Attack Surface
 
 Read OWASP's updated guidance on agentic AI (2026):
 Search: "OWASP agentic AI threats mitigations 2026"
@@ -191,7 +191,7 @@ malicious_tool_metadata = {
 # This is the tool poisoning attack — covered in MITRE ATLAS AML.T0054
 ```
 
-### Days 47–50: Your Research Translation (The Most Valuable Work)
+### Days 46–49: Your Research Translation (The Most Valuable Work)
 
 These 4 days produce the most valuable document in your entire portfolio for BOTH tracks.
 
@@ -257,15 +257,15 @@ This gives me something rare: I understand the math, the code,
 the governance implications, and the regulatory context — simultaneously."
 ```
 
-### Days 51–57: Hands-on LLM Security Experiments
+### Days 50–56: Hands-on LLM Security Experiments
 
-**Day 51:** Run all 5 Gandalf AI levels and document techniques in `portfolio/`
-**Day 52:** HackTheBox AI Red Teamer path — start the first 2 modules
-**Day 53:** Build the vulnerable AI app (from original Ch04 plan)
-**Day 54:** Attack your own app — document all findings
-**Day 55:** HuggingFace model security — run picklescan on 3 popular models
-**Day 56:** Write `portfolio/day56-llm-security-lab-report.md`
-**Day 57:** LinkedIn post: "What building LLMs from scratch taught me about attacking them"
+**Day 50:** Run all 5 Gandalf AI levels and document techniques in `portfolio/`
+**Day 51:** HackTheBox AI Red Teamer path — start the first 2 modules
+**Day 52:** Build the vulnerable AI app (from original Ch04 plan)
+**Day 53:** Attack your own app — document all findings
+**Day 54:** HuggingFace model security — run picklescan on 3 popular models
+**Day 55:** Write `portfolio/day55-llm-security-lab-report.md`
+**Day 56:** LinkedIn post: "What building LLMs from scratch taught me about attacking them"
 
 ---
 

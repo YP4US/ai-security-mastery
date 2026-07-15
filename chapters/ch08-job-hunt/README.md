@@ -1,5 +1,5 @@
 # Chapter 8: Job Hunt — Both Tracks
-## Days 102–140 | October 22 – November 30, 2026
+## Days 101–139 | October 22 – November 30, 2026
 
 > By now: AIGP ✅ · Security+ ✅ · AWS SAA ✅ · LLM Dashboard live ✅ · 
 > Mediqrate AI Audit published ✅ · Track A pipeline active since Sep 1 ✅ · 
@@ -7,7 +7,7 @@
 
 ---
 
-## Where You Should Be by Day 102
+## Where You Should Be by Day 101
 
 **Track A status (started Sep 1 — 7 weeks in):**
 - 20+ applications sent
@@ -120,7 +120,7 @@ If you start in a Track A role, aim to move into a hybrid Track A+B role (AI Sec
 
 *Read this on the day you get your offer.*
 
-You started on July 14, 2026 with rusty skills, two unfinished startups, a 2-year career gap, and a feeling that you were behind.
+You started on July 15, 2026 with rusty skills, two unfinished startups, a 2-year career gap, and a feeling that you were behind.
 
 By November 30:
 - You published 9 papers before most people knew "AI red teaming" was a job title

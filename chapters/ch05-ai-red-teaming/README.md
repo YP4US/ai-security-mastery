@@ -1,5 +1,5 @@
 # Chapter 5: AI Red Teaming — Your Core Specialty
-## Days 58–71 | September 8–21, 2026
+## Days 57–70 | September 8–21, 2026
 ## 🎯 Target: CEH Exam + First Real Red Team Report Published
 
 > **This is it.** Everything in Chapters 0–4 was preparation for this chapter. You now have: Python ✅, Linux ✅, Security fundamentals ✅, Cloud security ✅, AI/ML knowledge ✅. Time to put it all together.
@@ -20,9 +20,9 @@ Every professional AI red team engagement follows this structure:
 
 ---
 
-## Days 58–60: Frameworks + Methodology
+## Days 57–59: Frameworks + Methodology
 
-### Day 58 — MITRE ATLAS Mastery
+### Day 57 — MITRE ATLAS Mastery
 **Today's goal: Know ATLAS like the back of your hand.**
 
 Go to: https://atlas.mitre.org/matrices/ATLAS
@@ -43,7 +43,7 @@ Study ALL tactics and their key techniques:
 
 **Create:** `resources/atlas-attack-playbook.md` — your personal reference
 
-### Day 59 — OWASP LLM Top 10 Mastery
+### Day 58 — OWASP LLM Top 10 Mastery
 Go to: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 For each of the 10 vulnerabilities, write:
@@ -65,7 +65,7 @@ For each of the 10 vulnerabilities, write:
 | LLM09 | Overreliance | Test for hallucination on known facts |
 | LLM10 | Model Theft | Attempt model extraction via API |
 
-### Day 60 — NIST AI RMF: The Governance Framework
+### Day 59 — NIST AI RMF: The Governance Framework
 **Why:** Canadian companies increasingly reference NIST AI RMF in job descriptions.
 
 Go to: https://airc.nist.gov/RMF_Map
@@ -79,9 +79,9 @@ Create: `resources/nist-ai-rmf-cheatsheet.md`
 
 ---
 
-## Days 61–65: Tool Mastery
+## Days 60–64: Tool Mastery
 
-### Day 61 — garak: Deep Dive
+### Day 60 — garak: Deep Dive
 ```bash
 # garak is your primary LLM vulnerability scanner
 
@@ -105,13 +105,13 @@ garak --model_type ollama --model_name llama3.2:1b --probes all
 garak --model_type ollama \
       --model_name llama3.2:1b \
       --probes encoding,promptinject,dan \
-      --report_prefix portfolio/day61-garak-report
+      --report_prefix portfolio/day60-garak-report
 
 # Study the JSON report output — understand every field
-cat portfolio/day61-garak-report.jsonl | python3 -m json.tool
+cat portfolio/day60-garak-report.jsonl | python3 -m json.tool
 ```
 
-### Day 62 — PyRIT: Microsoft's Framework
+### Day 61 — PyRIT: Microsoft's Framework
 ```python
 # PyRIT lets you orchestrate complex, multi-turn attacks
 
@@ -129,15 +129,15 @@ converter = Base64Converter()
 # Test 3: Red team with adversarial suffix
 # (gradient-based attack — this connects to your adversarial ML research!)
 
-# Save all results to: portfolio/day62-pyrit-experiments/
+# Save all results to: portfolio/day61-pyrit-experiments/
 ```
 
-### Day 63 — promptfoo: LLM Testing Framework
+### Day 62 — promptfoo: LLM Testing Framework
 ```bash
 # promptfoo is great for systematic, repeatable testing
 npm install -g promptfoo
 
-# Create a test config: portfolio/day63-promptfoo-test/promptfooconfig.yaml
+# Create a test config: portfolio/day62-promptfoo-test/promptfooconfig.yaml
 ```
 
 ```yaml
@@ -171,7 +171,7 @@ tests:
 # promptfoo eval
 ```
 
-### Day 64 — IBM Adversarial Robustness Toolbox (ART)
+### Day 63 — IBM Adversarial Robustness Toolbox (ART)
 **This connects directly to your published research.**
 
 ```python
@@ -199,21 +199,21 @@ print(f"Adversarial: {classifier(adversarial_text)}")
 
 # See how small character changes affect classification
 # This is EXACTLY your adversarial ML research, applied to NLP
-# Document: portfolio/day64-art-text-adversarial.md
+# Document: portfolio/day63-art-text-adversarial.md
 ```
 
-### Day 65 — HackAPrompt Competition Review
+### Day 64 — HackAPrompt Competition Review
 Go to: https://hackaprompt.com
 
 - Study the winning entries from the last competition
 - Try to replicate the top 3 attack techniques
-- Document your observations: `portfolio/day65-hackaprompt-analysis.md`
+- Document your observations: `portfolio/day64-hackaprompt-analysis.md`
 
 ---
 
-## Days 66–68: Writing Professional Red Team Reports
+## Days 65–67: Writing Professional Red Team Reports
 
-### Day 66 — Report Structure
+### Day 65 — Report Structure
 A professional AI red team report has this structure:
 ```
 EXECUTIVE SUMMARY (1 page)
@@ -241,14 +241,14 @@ APPENDIX
 
 **Create:** `templates/ai-red-team-report-template.md`
 
-### Day 67 — Write Your First Real Report
-Take your findings from Day 51–54 (the vulnerable AI app you built) and write a full professional report.
+### Day 66 — Write Your First Real Report
+Take your findings from Day 50–53 (the vulnerable AI app you built) and write a full professional report.
 
 Save to: `portfolio/acmecorp-ai-security-assessment-report.pdf`
 
 This is your **first portfolio piece**. It demonstrates you can deliver real security work.
 
-### Day 68 — CEH Exam Prep Start
+### Day 67 — CEH Exam Prep Start
 **Certified Ethical Hacker (CEH v13) — specifically covers AI Red Teaming in 2026 version**
 
 Register for exam: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
@@ -263,9 +263,9 @@ Primary resource: EC-Council's official courseware + Matt Walker's CEH All-in-On
 
 ---
 
-## Days 69–71: Advanced Techniques + CEH
+## Days 68–70: Advanced Techniques + CEH
 
-### Day 69 — Multi-Turn Attack Orchestration
+### Day 68 — Multi-Turn Attack Orchestration
 ```python
 # Advanced: orchestrate a multi-turn attack that builds up context
 # Single-turn attacks are often blocked; multi-turn attacks bypass filters
@@ -303,7 +303,7 @@ class MultiTurnAttacker:
         )
 ```
 
-### Day 70 — Agentic AI Red Teaming
+### Day 69 — Agentic AI Red Teaming
 ```python
 # Test an AI agent with tool use for security vulnerabilities
 
@@ -325,15 +325,15 @@ tools = [
 # Attack: Can you get the agent to execute unintended commands?
 # Attack: Tool poisoning — inject malicious instructions into tool descriptions
 
-# Document in: portfolio/day70-agentic-ai-attacks.md
+# Document in: portfolio/day69-agentic-ai-attacks.md
 ```
 
-### Day 71 — Chapter 5 Review + CEH Study Continues
+### Day 70 — Chapter 5 Review + CEH Study Continues
 - [ ] Review all findings from chapter
 - [ ] Portfolio: 3 items should exist (garak report, PyRIT experiments, AcmeCorp report)
 - [ ] LinkedIn post: "3 weeks of AI red teaming hands-on. Here are the top 5 things I've learned..."
 - [ ] CEH study: complete modules 1–5
-- [ ] Register for CEH exam (book for Day 85 if budget allows, or use it as "in progress")
+- [ ] Register for CEH exam (book for Day 84 if budget allows, or use it as "in progress")
 
 ---
 

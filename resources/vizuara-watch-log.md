@@ -1,5 +1,5 @@
 # Vizuara "Building LLMs from Scratch" — Watch Log
-## 2 videos/day during morning break (11:15–12:00)
+## 2 videos/day during morning break (12:45–13:30) — Day 1 catches up with 4 videos since it absorbs the original plan's Day 1+2
 ## Playlist: https://youtube.com/playlist?list=PLPTV0NXA_ZSgsLAr8YCgCwhPIJNNtexWu
 
 > For each video: watch it, then write 1 sentence answering:
@@ -7,8 +7,8 @@
 
 | # | Title (approximate) | Date | Watched | Security Insight |
 |---|---------------------|------|---------|-----------------|
-| 1 | Series Introduction | Jul 14 | ⬜ | |
-| 2 | What is an LLM? Architecture overview | Jul 14 | ⬜ | |
+| 1 | Series Introduction | Jul 15 | ⬜ | |
+| 2 | What is an LLM? Architecture overview | Jul 15 | ⬜ | |
 | 3 | LLM concepts + terminology | Jul 15 | ⬜ | |
 | 4 | Tokenization Part 1 | Jul 15 | ⬜ | |
 | 5 | Tokenization Part 2 (BPE) | Jul 16 | ⬜ | |
@@ -51,7 +51,7 @@
 | 42 | API Design + Prompting | Aug 3 | ⬜ | |
 | 43 | Series Wrap-Up | Aug 4 | ⬜ | |
 
-## Series Complete Date: ~August 4–5 ✅ (Day ~22)
+## Series Complete Date: ~August 4 ✅ (Day ~21)
 
 ## Key Insights After Completion
 (fill this in after watching all 43)

@@ -1,8 +1,8 @@
 # Chapter 00B: AI Governance Track (Track A)
-## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 14 – Aug 22, 2026
+## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 15 – Aug 22, 2026
 ## 🎯 Target: Apply for Track A roles confidently by September 1, 2026
 
-> **This chapter runs every afternoon (13:00–17:30) while your mornings cover Track B.**
+> **This chapter runs every afternoon (14:30–19:00) while your mornings cover Track B.**
 > By the end of Week 6 you will have: AIGP certification in progress, a published AI governance framework analysis, a documented AI risk assessment of your own products, and a vocabulary that makes you immediately credible to Risk, Compliance, and Legal teams at Canadian banks, consulting firms, and government agencies.
 
 ---
@@ -61,7 +61,7 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ---
 
-## WEEK 1 (Jul 14–20): Foundation Frameworks
+## WEEK 1 (Jul 15–20): Foundation Frameworks
 
 ### 🎓 Certification: AIGP (AI Governance Professional)
 **Provider:** IAPP (International Association of Privacy Professionals)
@@ -81,8 +81,8 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ### Day-by-Day: Week 1
 
-#### Day 1 (Jul 14) — 13:00–17:30: The Three Pillars
-**Afternoon (13:00–15:00): NIST AI RMF**
+#### Day 1 (Jul 15) — 14:30–19:00: The Three Pillars
+**Afternoon (14:30–16:30): NIST AI RMF**
 
 This is the most important framework for Canadian employers. Read it today.
 URL: https://airc.nist.gov/RMF_Map
@@ -103,7 +103,7 @@ For each of the 6 categories under GOVERN, write:
 1. What it means in plain English
 2. One example of what this looks like at a Canadian bank
 
-**Afternoon (15:15–16:30): EU AI Act Overview**
+**Afternoon (16:45–18:00): EU AI Act Overview**
 
 URL: https://artificialintelligenceact.eu/the-act/
 
@@ -142,13 +142,13 @@ Create: `resources/eu-ai-act-risk-tiers.md`
 - Most B2B AI tools
 ```
 
-**Project Work (16:30–17:30):**
+**Project Work (18:00–19:00):**
 Write your first LinkedIn post as an AI Governance professional:
 > "The EU AI Act's High-Risk AI tier went into full enforcement on August 2, 2026. As someone who built PIPEDA-compliant AI health systems, here's what I think most companies are missing about their compliance obligations: [3 points]. #AIGovernance #ResponsibleAI #EUAIAct"
 
 ---
 
-#### Day 2 (Jul 15) — 13:00–17:30: NIST AI RMF Deep Dive
+#### Day 1 continued (Jul 15) — NIST AI RMF Deep Dive
 
 **Read:** The full NIST AI RMF Core (Playbook): https://airc.nist.gov/Docs/2
 Focus on: GOVERN 1.1, GOVERN 1.2, MAP 1.1, MEASURE 2.1
@@ -186,7 +186,7 @@ After controls: [ ] Acceptable [ ] Needs further treatment
 
 ---
 
-#### Day 3 (Jul 16) — 13:00–17:30: Canadian AI Regulation
+#### Day 2 (Jul 16) — 14:30–19:00: Canadian AI Regulation
 
 **Read these (in order, each ~30 min):**
 

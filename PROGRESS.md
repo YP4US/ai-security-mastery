@@ -3,11 +3,11 @@
 Update this every Sunday evening. Be honest.
 
 ## Overall Progress
-- **Start date:** July 14, 2026
+- **Start date:** July 15, 2026
 - **Track A applications start:** September 1, 2026
 - **Track B applications start:** September 22, 2026
-- **Target offer date:** November 30, 2026
-- **Days completed:** 0 / 140
+- **Target offer date:** November 30, 2026 (Day 139)
+- **Days completed:** 0 / 139
 - **Current chapter:** Ch00 + Ch00B (parallel)
 - **Current streak:** 0 days 🔥
 
@@ -17,16 +17,16 @@ Update this every Sunday evening. Be honest.
 
 | Chapter | Topic | Track | Days | Status | Completed |
 |---------|-------|-------|------|--------|-----------|
-| Ch00 | Orientation & Setup | Both | 1–3 | ⬜ | — |
+| Ch00 | Orientation & Setup | Both | 1–2 | ⬜ | — |
 | Ch00B | AI Governance Track | A | Wks 1–6 (parallel) | ⬜ | — |
-| Ch01 | Python + Linux + Networking | B | 4–18 | ⬜ | — |
-| Ch02 | Security Core (CompTIA S+) | B | 19–33 | ⬜ | — |
-| Ch03 | Cloud Security (AWS SAA) | B | 34–43 | ⬜ | — |
-| Ch04 | LLM Internals + Vizuara | Both | 44–57 | ⬜ | — |
-| Ch05 | AI Red Teaming | B | 58–71 | ⬜ | — |
-| Ch06 | MLSecOps | B | 72–85 | ⬜ | — |
-| Ch07 | Projects | Both | 86–101 | ⬜ | — |
-| Ch08 | Job Hunt | Both | 102–140 | ⬜ | — |
+| Ch01 | Python + Linux + Networking | B | 3–17 | ⬜ | — |
+| Ch02 | Security Core (CompTIA S+) | B | 18–32 | ⬜ | — |
+| Ch03 | Cloud Security (AWS SAA) | B | 33–42 | ⬜ | — |
+| Ch04 | LLM Internals + Vizuara | Both | 43–56 | ⬜ | — |
+| Ch05 | AI Red Teaming | B | 57–70 | ⬜ | — |
+| Ch06 | MLSecOps | B | 71–84 | ⬜ | — |
+| Ch07 | Projects | Both | 85–100 | ⬜ | — |
+| Ch08 | Job Hunt | Both | 101–139 | ⬜ | — |
 
 ---
 
@@ -44,7 +44,7 @@ Update this every Sunday evening. Be honest.
 | 36–40 | Safety training + deployment | ⬜ | |
 | 41–43 | Final topics + wrapup | ⬜ | |
 
-**Series complete by:** ~August 5 (Day 22)
+**Series complete by:** ~August 5 (Day 21)
 
 ---
 
@@ -104,9 +104,9 @@ Update this every Sunday evening. Be honest.
 ---
 
 ## Key Milestones
-- [ ] Day 3: Full environment setup complete
-- [ ] Day 5: First TryHackMe room complete
-- [ ] Day 22: Vizuara series complete (43 videos)
+- [ ] Day 2: Full environment setup complete
+- [ ] Day 4: First TryHackMe room complete
+- [ ] Day 21: Vizuara series complete (43 videos)
 - [ ] Week 6 (Aug 22): AIGP exam passed
 - [ ] Aug 14: Security+ exam passed
 - [ ] Aug 24: AWS SAA exam passed

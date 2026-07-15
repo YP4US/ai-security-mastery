@@ -1,5 +1,5 @@
 # Chapter 1: Technical Foundations
-## Days 4–18 | July 17–31, 2026
+## Days 3–17 | July 17–31, 2026
 
 > **Goal:** Be fluent enough in Python scripting, Linux CLI, and networking fundamentals to not get stuck during security labs. You already know Python — this is a focused refresh toward *security use cases*.
 
@@ -13,13 +13,13 @@ Security tools are built in Python. Security labs run on Linux. Security attacks
 
 ---
 
-## WEEK 1 of Chapter 1 (Days 4–10 | Jul 17–23)
+## WEEK 1 of Chapter 1 (Days 3–9 | Jul 17–23)
 
-### Python for Security — Days 4–7
+### Python for Security — Days 3–6
 
 **Primary resource:** Python security labs on TryHackMe + your own scripts
 
-#### Day 4 — Python Refresh for Security
+#### Day 3 — Python Refresh for Security
 ```python
 # Morning: Write these 5 scripts from scratch. No copy-paste.
 # Save all to: chapters/ch01-foundations/python-scripts/
@@ -61,17 +61,17 @@ def check_headers(url):
 print(check_headers("https://practiceclb.com"))  # test your own site!
 ```
 
-#### Day 5 — TryHackMe: Linux Fundamentals
+#### Day 4 — TryHackMe: Linux Fundamentals
 - [ ] TryHackMe → Pre-Security → **Linux Fundamentals Part 1** (complete fully)
 - [ ] TryHackMe → Pre-Security → **Linux Fundamentals Part 2** (complete fully)
 - Afternoon: practice ALL commands in your own terminal
 
-#### Day 6 — TryHackMe: Networking
+#### Day 5 — TryHackMe: Networking
 - [ ] TryHackMe → Pre-Security → **How the Web Works** (complete fully)
 - [ ] TryHackMe → Pre-Security → **Network Fundamentals** (complete fully)
 - Create: `resources/networking-cheatsheet.md` (TCP/IP, DNS, HTTP, HTTPS, ports)
 
-#### Day 7 — Python Security Scripts (Advanced)
+#### Day 6 — Python Security Scripts (Advanced)
 ```python
 # Script 3: jwt_decoder.py
 # Decode a JWT token and check for weak algorithms
@@ -128,15 +128,15 @@ def scan_dir(path):
                         print(f"⚠️  {name} found in {fp}")
 ```
 
-### Networking for Security — Days 8–10
+### Networking for Security — Days 7–9
 
-#### Day 8 — TryHackMe: How the Internet Actually Works
+#### Day 7 — TryHackMe: How the Internet Actually Works
 - [ ] TryHackMe → **How Websites Work** room
 - [ ] TryHackMe → **HTTP in Detail** room
 - [ ] Practice: Use `curl -v https://practiceclb.com` and understand every line of output
 - [ ] Learn: What is TLS/HTTPS handshake? Draw it out on paper.
 
-#### Day 9 — Tools: Wireshark + nmap
+#### Day 8 — Tools: Wireshark + nmap
 ```bash
 # Install Wireshark (GUI packet analyzer)
 # https://wireshark.org/download
@@ -156,7 +156,7 @@ nmap -A -T4 scanme.nmap.org          # legal nmap test target
 # Find: GET requests, responses, cookies in plaintext
 ```
 
-#### Day 10 — Burp Suite Introduction
+#### Day 9 — Burp Suite Introduction
 ```
 Download Burp Suite Community (free): https://portswigger.net/burp
 Watch: "Burp Suite for Beginners" (YouTube, ~30 min)
@@ -171,11 +171,11 @@ Practice:
 
 ---
 
-## WEEK 2 of Chapter 1 (Days 11–18 | Jul 24–31)
+## WEEK 2 of Chapter 1 (Days 10–17 | Jul 24–31)
 
-### Web Security Fundamentals — Days 11–15
+### Web Security Fundamentals — Days 10–14
 
-#### Day 11–12 — PortSwigger Web Security Academy (FREE)
+#### Day 10–11 — PortSwigger Web Security Academy (FREE)
 Go to: https://portswigger.net/web-security
 
 Complete these labs IN ORDER:
@@ -186,25 +186,25 @@ Complete these labs IN ORDER:
 
 > **Why?** Web attack fundamentals are the foundation of *all* red teaming. LLM prompt injection is conceptually identical to SQL injection — same attack class, different target.
 
-#### Day 13 — Authentication Attacks
+#### Day 12 — Authentication Attacks
 - [ ] PortSwigger: Authentication labs (apprentice level)
 - [ ] Learn: JWT attacks, OAuth vulnerabilities, session fixation
 - [ ] TryHackMe: **OWASP Top 10** room (complete fully)
 
-#### Day 14 — API Security
+#### Day 13 — API Security
 - [ ] Read: OWASP API Security Top 10 (https://owasp.org/www-project-api-security/)
 - [ ] Practice: Use Postman + Burp to test your OWN PracticeCLB API endpoints
   - Test for: missing auth, rate limiting bypass, IDOR vulnerabilities
 - [ ] Document findings in: `portfolio/practiceclb-api-security-notes.md`
 
-#### Day 15 — Review + Practice Day
+#### Day 14 — Review + Practice Day
 - [ ] Complete any incomplete PortSwigger labs
 - [ ] TryHackMe: **Introductory Networking** room
 - [ ] Write `resources/security-glossary.md` (define 50 security terms in YOUR words)
 
-### Linux Security — Days 16–18
+### Linux Security — Days 15–17
 
-#### Day 16 — Linux for Security
+#### Day 15 — Linux for Security
 ```bash
 # These commands must become muscle memory:
 # File permissions
@@ -231,7 +231,7 @@ md5sum file.py
 find / -perm -4000 2>/dev/null
 ```
 
-#### Day 17 — Docker Security
+#### Day 16 — Docker Security
 ```bash
 # Docker is used in security labs AND MLOps pipelines you'll be auditing
 
@@ -249,7 +249,7 @@ trivy image python:3.11                     # scan Python base image
 trivy image --severity HIGH,CRITICAL node:18
 ```
 
-#### Day 18 — Chapter 1 Review Day
+#### Day 17 — Chapter 1 Review Day
 - [ ] Review all Python scripts — can you explain every line?
 - [ ] Complete TryHackMe Pre-Security path (all sections)
 - [ ] Review networking cheatsheet

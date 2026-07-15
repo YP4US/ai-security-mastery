@@ -1,5 +1,5 @@
 # Chapter 6: MLSecOps — Securing the ML Pipeline
-## Days 72–85 | September 22 – October 5, 2026
+## Days 71–84 | September 22 – October 5, 2026
 
 > **Goal:** Understand how to secure the entire ML development lifecycle — from data collection to production inference. This makes you valuable to teams building AI, not just attacking it.
 
@@ -19,9 +19,9 @@ MODEL REGISTRY → MODEL SERVING → MONITORING → INCIDENT RESPONSE
 
 ---
 
-## Days 72–75: Securing the Data Pipeline
+## Days 71–74: Securing the Data Pipeline
 
-### Day 72 — Data Security + Privacy
+### Day 71 — Data Security + Privacy
 ```python
 # Detect PII in training datasets — this is real MLSecOps work
 import re
@@ -58,7 +58,7 @@ for text in sample_data:
 # Save tool to: portfolio/pii-scanner/
 ```
 
-### Day 73 — Data Poisoning Defense
+### Day 72 — Data Poisoning Defense
 ```python
 # Implement data validation pipeline to catch poisoned samples
 
@@ -93,7 +93,7 @@ def detect_poisoned_samples(dataset, labels, contamination=0.05):
 # This is DIRECTLY your anomaly detection research applied to MLSecOps
 ```
 
-### Day 74 — Model Supply Chain Security
+### Day 73 — Model Supply Chain Security
 ```python
 # Secure model loading — prevent pickle injection
 from safetensors import safe_open
@@ -132,7 +132,7 @@ def verify_model_provenance(model_id: str):
     }
 ```
 
-### Day 75 — MLflow Security Hardening
+### Day 74 — MLflow Security Hardening
 ```python
 # MLflow is the most common MLOps platform — learn to secure it
 
@@ -159,9 +159,9 @@ MLFLOW_SECURITY_CHECKLIST = [
 
 ---
 
-## Days 76–79: Runtime Security + Monitoring
+## Days 75–78: Runtime Security + Monitoring
 
-### Day 76 — Inference API Security
+### Day 75 — Inference API Security
 ```python
 # Secure an AI inference endpoint
 from fastapi import FastAPI, Depends, HTTPException, Request
@@ -232,7 +232,7 @@ async def secure_chat(
     return {"response": "Processed securely"}
 ```
 
-### Day 77 — Guardrails Implementation
+### Day 76 — Guardrails Implementation
 ```python
 # Implement guardrails using Nemo Guardrails (NVIDIA, open source)
 # pip install nemoguardrails
@@ -270,7 +270,7 @@ class AIGuardrail:
         return {"safe": len(violations) == 0, "sensitive_data_found": violations}
 ```
 
-### Day 78 — AI Incident Response Plan
+### Day 77 — AI Incident Response Plan
 Create: `portfolio/ai-incident-response-playbook.md`
 
 ```markdown
@@ -296,7 +296,7 @@ Create: `portfolio/ai-incident-response-playbook.md`
 6. REVIEW: Post-incident analysis within 5 business days
 ```
 
-### Day 79 — CAISP Certification Prep Starts
+### Day 78 — CAISP Certification Prep Starts
 **Certified AI Security Professional (Practical DevSecOps)**
 - Cost: ~$500 USD
 - URL: https://www.practical-devsecops.com/certified-ai-security-professional/
@@ -307,9 +307,9 @@ Start the prep course and complete the first 3 modules.
 
 ---
 
-## Days 80–83: End-to-End MLSecOps Audit
+## Days 79–82: End-to-End MLSecOps Audit
 
-### Days 80–81 — Audit PracticeCLB's AI Pipeline
+### Days 79–80 — Audit PracticeCLB's AI Pipeline
 This is real work on a real system you built. Document it as a professional audit.
 
 **Audit checklist:**
@@ -337,12 +337,12 @@ This is real work on a real system you built. Document it as a professional audi
 - [ ] Failed auth attempts: tracked?
 ```
 
-### Days 82–83 — Audit Mediqrate's AI Pipeline
+### Days 81–82 — Audit Mediqrate's AI Pipeline
 Same audit structure applied to Mediqrate's Vita AI system.
 
 This creates **two real security audits on real systems** — which is exactly what hiring managers want to see.
 
-### Days 84–85 — CAISP Exam Prep + Documentation
+### Days 83–84 — CAISP Exam Prep + Documentation
 - [ ] Complete CAISP prep modules 4–6
 - [ ] Package both audit reports as PDFs: `portfolio/`
 - [ ] Write LinkedIn post about the audits (sanitize sensitive findings)

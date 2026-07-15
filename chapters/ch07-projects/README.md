@@ -1,12 +1,12 @@
 # Chapter 7: Portfolio Projects — Build What Gets You Hired
-## Days 86–101 | October 6–21, 2026
+## Days 85–100 | October 6–21, 2026
 
 > **Goal:** Two polished, live, publicly accessible projects that prove you can do the job before you have the title. These are your interview tickets.
 
 ---
 
 ## Project 1: LLM Red-Teaming Dashboard
-**Days 86–94 | October 6–14**
+**Days 85–93 | October 6–14**
 
 ### What You're Building
 A web-based tool that automatically runs adversarial test suites against any OpenAI-compatible LLM endpoint and generates a structured vulnerability report. Think: automated AI penetration testing as a service.
@@ -20,7 +20,7 @@ A web-based tool that automatically runs adversarial test suites against any Ope
 
 ### Day-by-Day Build Plan
 
-#### Day 86 — Architecture + Scaffolding
+#### Day 85 — Architecture + Scaffolding
 ```bash
 mkdir -p portfolio/llm-redteam-dashboard/{backend,frontend,reports}
 cd portfolio/llm-redteam-dashboard
@@ -39,7 +39,7 @@ backend/
     └── schemas.py       # Pydantic models
 ```
 
-#### Day 87 — garak Integration
+#### Day 86 — garak Integration
 ```python
 # backend/scanners/garak_runner.py
 import subprocess
@@ -85,7 +85,7 @@ class GarakScanner:
         }
 ```
 
-#### Day 88 — Custom Attack Suite
+#### Day 87 — Custom Attack Suite
 ```python
 # backend/scanners/manual_tests.py
 # 20 hand-crafted attack prompts across 5 categories
@@ -120,7 +120,7 @@ ATLAS_ALIGNED_TESTS = {
 }
 ```
 
-#### Day 89 — FastAPI Backend
+#### Day 88 — FastAPI Backend
 ```python
 # backend/main.py
 from fastapi import FastAPI, BackgroundTasks
@@ -185,7 +185,7 @@ def generate_executive_summary(results):
     }
 ```
 
-#### Days 90–92 — React Frontend
+#### Days 89–91 — React Frontend
 Build a clean dashboard showing:
 - Model selector (dropdown: OpenAI, Ollama, Anthropic)
 - Probe selector (checkboxes)
@@ -195,7 +195,7 @@ Build a clean dashboard showing:
 - "Download PDF Report" button
 - MITRE ATLAS mapping for each finding
 
-#### Day 93 — PDF Report Generator
+#### Day 92 — PDF Report Generator
 ```python
 # Use WeasyPrint or ReportLab to generate professional PDF reports
 pip install weasyprint jinja2
@@ -204,7 +204,7 @@ pip install weasyprint jinja2
 # Then convert to PDF — matches the visual style of your resume
 ```
 
-#### Day 94 — Deploy + Document
+#### Day 93 — Deploy + Document
 - Deploy backend to AWS Lambda (free tier)
 - Deploy frontend to Vercel (free tier)
 - Write comprehensive README.md for the GitHub repo
@@ -214,12 +214,12 @@ pip install weasyprint jinja2
 ---
 
 ## Project 2: Mediqrate AI Security Audit — White Paper
-**Days 95–101 | October 15–21**
+**Days 94–100 | October 15–21**
 
 ### What You're Publishing
 A professional security audit report of Mediqrate's AI pipeline. This shows you can audit a REAL production system, communicate findings professionally, and understand healthcare AI security requirements.
 
-#### Day 95 — Formal Threat Model
+#### Day 94 — Formal Threat Model
 Create a complete threat model for Mediqrate's AI features:
 ```markdown
 # Mediqrate AI Threat Model
@@ -240,19 +240,19 @@ Create a complete threat model for Mediqrate's AI features:
 [For each threat actor, document the attack path and mitigations]
 ```
 
-#### Days 96–97 — Conduct and Document Findings
+#### Days 95–96 — Conduct and Document Findings
 Run systematic tests against Mediqrate's AI features:
 - Can Vita AI be made to output another user's health data?
 - Can the TTS endpoint be abused for DDoS (cost exhaustion)?
 - Are there injection vulnerabilities in health data prompts?
 - Is PHI properly encrypted before reaching the LLM context?
 
-#### Days 98–99 — Write the Report
+#### Days 97–98 — Write the Report
 Structure: Executive summary → Technical findings → Mitigations implemented → Lessons learned
 
 **Important:** Sanitize this for public release — no real API keys, no real user data, no unfixed critical vulnerabilities. Only publish after you've fixed everything.
 
-#### Days 100–101 — Publish + Promote
+#### Days 99–100 — Publish + Promote
 - Publish as PDF on GitHub: `yogesh-mediqrate-ai-security-audit.pdf`
 - Publish summary blog post on Medium/Substack
 - Share on LinkedIn with this framing:
