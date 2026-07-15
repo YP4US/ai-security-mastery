@@ -1,0 +1,55 @@
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.production
+*.env
+
+# API Keys
+secrets.json
+credentials.json
+api_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+security-env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+.nuxt/
+
+# OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+
+# Security scan outputs with sensitive data
+reports/raw/
+*.jsonl.bak
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model files
+*.bin
+*.pt
+*.gguf
+*.ggml
+
+# Temp files
+*.tmp
+*.log
+*.swp
+
+# Keep these:
+# !reports/*.pdf  (polished reports are OK to commit)
+# !portfolio/**   (portfolio work should be public)
