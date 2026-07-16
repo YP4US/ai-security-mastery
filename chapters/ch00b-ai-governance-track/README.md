@@ -1,11 +1,21 @@
 # Chapter 00B: AI Governance Track (Track A)
-## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 15 – Aug 22, 2026
+## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 15 – Sep 1, 2026
 ## 🎯 Target: Apply for Track A roles confidently by September 1, 2026
 
-> **This chapter runs every afternoon (14:30–19:00) while your mornings cover Track B.**
+> **This chapter runs in two daily slots:
+- **Warm-up slot (11:30–12:30):** Governance reading, AIGP content, Anki flashcards
+- **Portfolio slot (20:00–21:15):** Writing governance documents, audit reports, LinkedIn posts
+
+Your **Deep Work slots (13:30–18:30)** remain for Track B (security fundamentals).**
 > By the end of Week 6 you will have: AIGP certification in progress, a published AI governance framework analysis, a documented AI risk assessment of your own products, and a vocabulary that makes you immediately credible to Risk, Compliance, and Legal teams at Canadian banks, consulting firms, and government agencies.
 
 ---
+
+> **Startup block (10:30–11:30) runs every morning in parallel.**
+> This chapter uses the **warm-up slot (11:30–12:30)** and
+> **portfolio slot (20:00–21:15)** each day — NOT the deep work blocks
+> (those stay for Track B). Check Ch09 for today's startup task.
+
 
 ## Why You're ALREADY Qualified for Track A (Read This First)
 
@@ -61,9 +71,17 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ---
 
-## WEEK 1 (Jul 15–20): Foundation Frameworks
+## WEEK 1 (Jul 15–21): Foundation Frameworks
 
-### 🎓 Certification: AIGP (AI Governance Professional)
+### 🎓 AIGP Content Study (Exam DEFERRED — see README)
+
+> **The $799 USD AIGP exam is deferred until after your first paycheck.**
+> Study ALL the content now — it directly prepares you for Track A interviews
+> and portfolio work. Just do not pay the exam fee yet.
+> When income arrives, buying AIGP gives you a 13% salary premium on your
+> second role negotiation. It is not wasted — it is timed correctly.
+
+## AIGP Study Resources (All Free)
 **Provider:** IAPP (International Association of Privacy Professionals)
 **Cost:** ~$400 USD (~$550 CAD) for exam + study materials
 **Exam format:** 90 questions, 2.5 hours, passing score 300/500
@@ -81,8 +99,8 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ### Day-by-Day: Week 1
 
-#### Day 1 (Jul 15) — 14:30–19:00: The Three Pillars
-**Afternoon (14:30–16:30): NIST AI RMF**
+#### Day 1 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): The Three Pillars
+**Afternoon (11:30–12:30): NIST AI RMF**
 
 This is the most important framework for Canadian employers. Read it today.
 URL: https://airc.nist.gov/RMF_Map
@@ -103,7 +121,7 @@ For each of the 6 categories under GOVERN, write:
 1. What it means in plain English
 2. One example of what this looks like at a Canadian bank
 
-**Afternoon (16:45–18:00): EU AI Act Overview**
+**Afternoon (20:00–21:00): EU AI Act Overview**
 
 URL: https://artificialintelligenceact.eu/the-act/
 
@@ -142,13 +160,13 @@ Create: `resources/eu-ai-act-risk-tiers.md`
 - Most B2B AI tools
 ```
 
-**Project Work (18:00–19:00):**
+**Project Work (21:00–21:15):**
 Write your first LinkedIn post as an AI Governance professional:
 > "The EU AI Act's High-Risk AI tier went into full enforcement on August 2, 2026. As someone who built PIPEDA-compliant AI health systems, here's what I think most companies are missing about their compliance obligations: [3 points]. #AIGovernance #ResponsibleAI #EUAIAct"
 
 ---
 
-#### Day 1 continued (Jul 15) — NIST AI RMF Deep Dive
+#### Day 2 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): NIST AI RMF Deep Dive
 
 **Read:** The full NIST AI RMF Core (Playbook): https://airc.nist.gov/Docs/2
 Focus on: GOVERN 1.1, GOVERN 1.2, MAP 1.1, MEASURE 2.1
@@ -186,7 +204,7 @@ After controls: [ ] Acceptable [ ] Needs further treatment
 
 ---
 
-#### Day 2 (Jul 16) — 14:30–19:00: Canadian AI Regulation
+#### Day 3 (Jul 16) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): Canadian AI Regulation
 
 **Read these (in order, each ~30 min):**
 
@@ -492,15 +510,24 @@ Key topics to master this week:
 
 ## WEEK 6 (Aug 18–22): Final Prep + AIGP Exam
 
-### Day 36–40: Full Mock Exams + AIGP Exam
+### Day 36–40: Full Mock Exams + Interview Prep (Exam Deferred)
 
-**Days 36–38:** Complete 3 full 90-question AIGP mock exams. Target: 80%+
+**Days 36–38:** Complete 3 full 90-question AIGP practice exams. Target: 80%+
+These are free practice questions — do not pay for the real exam yet.
 
-**Day 39 (Aug 21):** Review all wrong answers. Focus on regulations domain.
+**Day 39:** Review all wrong answers. Focus on regulations domain.
+Create your Track A interview script from `resources/master-cheatsheet.md`.
 
-**Day 40 (Aug 22): AIGP Exam 🎯**
-- Book through IAPP testing center or online proctored
-- After passing: Add to LinkedIn, resume, GitHub IMMEDIATELY
+**Day 40: Track A Application Prep 🎯**
+- Polish your 3 Track A resume versions
+- Write cover letter templates for Risk Analyst, Responsible AI, and Governance Lead
+- Finalize your portfolio GitHub — all 5 pieces must be published
+- Update LinkedIn headline + pin portfolio pieces as Featured
+- **September 1 is 10 days away — you're ready**
+
+> 💡 **AIGP Exam Timing:** Once you land a Track A role and receive your first paycheck,
+> buy the AIGP exam ($799 USD). You'll pass easily since you've studied all the content.
+> It then boosts your salary negotiation for your next role (13% premium per IAPP data).
 
 ---
 

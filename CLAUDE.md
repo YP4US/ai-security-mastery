@@ -1,239 +1,207 @@
 # CLAUDE.md — AI Security Mastery Repo
-# Yogesh Pawar | Career Pivot: AI Governance + AI Security Engineering
-# Start date: July 15, 2026 | Target first offer: November 30, 2026 (Day 139)
+# Yogesh Pawar | Career Pivot + Startup Launch
+# Start: July 15, 2026 | Target offer: December 28, 2026 | 160 days
 
 ---
 
 ## WHO YOU ARE HELPING
 
-Yogesh Pawar, Ottawa, Ontario, Canada. Solo founder of Mediqrate (React Native health app) and PracticeCLB (Next.js CELPIP exam prep). M.A.Sc. Information Systems Security, Concordia University. 9 published IEEE papers in adversarial ML and anomaly detection. 2-year career gap ended July 2026. Career pivoting into AI Governance (Track A) and AI Security Engineering (Track B).
+Yogesh Pawar, Ottawa, Ontario. Solo founder of:
+- **Mediqrate** — React Native/Expo health app, Android in testing, iOS deferred. PIPEDA-compliant. AES-256-GCM PHI encryption. Claude Haiku/Sonnet + ElevenLabs + Deepgram. RevenueCat (CAD $9.99/mo, $24.99/qtr, $79.99/yr). Supabase.
+- **PracticeCLB** — Next.js CELPIP exam prep. Supabase, Upstash Redis, Stripe, Gemini + Claude + ElevenLabs + Deepgram, Cloudflare R2, Vercel. Day-based CAD pricing.
 
-This repo IS his study plan, daily tracker, and portfolio. Every file in it matters.
+**Financial situation:** 4–5 months runway. Both apps in pre-launch testing. Hoping for startup revenue to extend runway. Career pivoting into AI Governance (Track A) + AI Security Engineering (Track B).
+
+**Academic:** M.A.Sc. Information Systems Security, Concordia (CGPA 3.83/4.3). 9 published IEEE papers in adversarial ML, Bayesian mixture models, anomaly detection.
+
+**Night person.** Schedule: 09:30 start, 23:00 wind-down.
 
 ---
 
-## WHAT THIS REPO CONTAINS
+## REPO STRUCTURE
 
 ```
-README.md                          ← Master overview + daily schedule
-PROGRESS.md                        ← Running tracker (update every session end)
 chapters/
-  ch00-orientation/                ← Setup (Days 1–2)
-  ch00b-ai-governance-track/       ← Track A: AI Governance (Weeks 1–6, parallel)
-  ch01-foundations/                ← Python + Linux + Networking (Days 3–17)
-  ch02-security-core/              ← CompTIA Security+ (Days 18–32)
-  ch03-cloud-security/             ← AWS SAA-C03 (Days 33–42)
-  ch04-ai-ml-fundamentals/         ← LLM internals + Vizuara series (Days 43–56)
-  ch05-ai-red-teaming/             ← AI Red Teaming tools (Days 57–70)
-  ch06-mlsecops/                   ← MLSecOps pipelines (Days 71–84)
-  ch07-projects/                   ← Portfolio projects (Days 85–100)
-  ch08-job-hunt/                   ← Applications + offers (Days 101–139)
-daily-logs/                        ← YYYY-MM-DD-day-NNN.md (one per day)
-weekly-reviews/                    ← week-NN-YYYY-MM-DD.md (one per week)
+  ch00-orientation/          ← Days 1–3: setup
+  ch00b-ai-governance-track/ ← Track A (parallel, no AIGP exam until after paycheck)
+  ch01-foundations/          ← Python + Linux + API Security (Days 4–18)
+  ch02-security-core/        ← CompTIA Security+ (Days 19–35, extended)
+  ch03-cloud-security/       ← AWS SAA-C03 (Days 36–47)
+  ch04-ai-ml-fundamentals/   ← LLM internals + Karpathy (Days 48–61)
+  ch05-ai-red-teaming/       ← AI Red Teaming (Days 62–75)
+  ch06-mlsecops/             ← MLSecOps pipelines (Days 76–89)
+  ch07-projects/             ← Portfolio projects, 3 weeks (Days 90–110)
+  ch08-job-hunt/             ← Applications + offers (Days 111–160)
+  ch09-startup-launch/       ← Mediqrate + PracticeCLB launch (parallel, every morning)
+daily-logs/                  ← YYYY-MM-DD-day-NNN.md
+weekly-reviews/
 resources/
-  master-cheatsheet.md             ← MITRE ATLAS, OWASP, governance frameworks
-  vizuara-watch-log.md             ← 43-video Vizuara tracker
-  track-a-job-targets.md           ← Target companies + application tracker
-  nist-ai-rmf-notes.md             ← Yogesh's personal notes (created during study)
-  eu-ai-act-risk-tiers.md          ← Yogesh's personal notes
-  canadian-ai-regulation-cheatsheet.md
+  master-cheatsheet.md
+  karpathy-watch-log.md      ← NOT vizuara (deleted) — Karpathy is free
+  track-a-job-targets.md
+  startup-launch-tracker.md  ← Weekly revenue + bug tracking
 templates/
   daily-log-template.md
   weekly-review-template.md
-portfolio/                         ← All projects and published work
+portfolio/
 ```
 
 ---
 
 ## TWO-TRACK STRATEGY
 
-**Track A (AI Governance):** Apply from September 1, 2026
+**Track A (AI Governance) — Apply September 1:**
 - Roles: AI Risk Analyst, Responsible AI Specialist, AI Governance Lead, AI Compliance Analyst
-- Certifications: AIGP (AI Governance Professional) — exam target August 22
-- Portfolio: Mediqrate AI Risk Assessment, EU AI Act Technical File, Model Card, Bias Audit
-- Key frameworks: NIST AI RMF, EU AI Act, PIPEDA, OSFI Model Risk, ISO 42001
+- AIGP certification: **DEFERRED** — study the content now, pay the $799 exam fee AFTER first paycheck
+- Portfolio replaces AIGP cert: Mediqrate NIST AI RMF Assessment + EU AI Act Technical File + Model Card
+- Frameworks: NIST AI RMF, EU AI Act, PIPEDA, OSFI Model Risk, ISO 42001, AIDA
 
-**Track B (AI Security):** Apply from September 22, 2026
+**Track B (AI Security) — Apply September 29:**
 - Roles: AI Security Engineer, AI Red Team Specialist, ML Security Researcher
-- Certifications: CompTIA Security+ (Aug 14), AWS SAA-C03 (Aug 24), HTB AI Red Teamer path
-- Portfolio: LLM Red-Teaming Dashboard (live), Mediqrate AI Security Audit
-- Key tools: garak, PyRIT, promptfoo, IBM ART, MITRE ATLAS, OWASP LLM Top 10
+- Certs: Security+ (~$380 CAD — do it, high ROI) + AWS SAA (~$165 CAD) + HTB AI Red Teamer (free)
+- Portfolio: LLM Red-Teaming Dashboard + Mediqrate AI Security Audit (both apps must be live by then)
+
+**Startup Track (parallel — every morning 10:30–11:30):**
+- PracticeCLB public launch: August 1
+- Mediqrate Android launch: August 15
+- Mediqrate iOS: October 1
+- Both generate career evidence AND potential revenue
 
 ---
 
-## DAILY SCHEDULE (Yogesh follows this every day)
+## DAILY SCHEDULE (Night Person + Startup Time)
 
 ```
-08:00–08:30   Morning message to Claude Code → get today's briefing
-08:30–10:30   Deep Work Block 1 (Track B technical content)
-10:45–12:45   Lab/Hands-on Block (TryHackMe, tools, coding)
-12:45–13:30   Vizuara series (2 videos/day — track in resources/vizuara-watch-log.md)
-13:30–14:30   Lunch (no screens)
-14:30–18:00   Track A Block (governance frameworks, AIGP study, portfolio)
-18:00–19:00   LinkedIn post or portfolio writing
-19:00–19:30   Job research (save 3 roles to track-a-job-targets.md)
-20:30–22:00   Light study (Anki, reading, 1 article)
-22:00–22:30   Evening message to Claude Code → report progress, Claude updates files
+09:30–10:30   Wake up + coffee + read morning briefing
+10:30–11:30   STARTUP BLOCK (Mediqrate + PracticeCLB — testing, bugs, launch tasks)
+11:30–12:30   WARM-UP: Track A (governance reading, AIGP content, Anki)
+12:30–13:30   LUNCH (full hour, no screens — you cook)
+13:30–16:00   DEEP WORK 1: Track B (labs, TryHackMe, security tools, coding)
+16:00–16:15   BREAK (walk outside)
+16:15–18:30   DEEP WORK 2: Track B continuation OR Track A heavy work
+18:30–19:30   DINNER (full hour, no screens — you cook)
+19:30–20:00   RESET (walk, music)
+20:00–21:15   PORTFOLIO + CONTENT (LinkedIn, audit writing, job research, startup marketing)
+21:15–22:30   KARPATHY + LIGHT STUDY (2 videos, Anki, 1 article)
+22:45–23:00   EVENING CHECK-IN → Claude updates files → git commit → push
 ```
+
+---
+
+## CERTIFICATION DECISIONS (Financial Reality)
+
+| Cert | Cost | Decision |
+|------|------|----------|
+| AIGP | $799 USD | DEFERRED — study content now, pay after first paycheck |
+| Security+ | ~$380 CAD | DO IT — high ROI, government + bank roles require it |
+| AWS SAA | ~$165 CAD | DO IT — low cost, strong signal |
+| HTB AI Red Teamer | Free | DO IT — hands-on, verifiable |
 
 ---
 
 ## MORNING BRIEFING BEHAVIOR
 
-When Yogesh sends a morning message, you MUST:
+When Yogesh sends a morning message, ALWAYS:
+1. Read PROGRESS.md → find current day + active chapters
+2. Read current Track B chapter README → today's specific tasks
+3. Read chapters/ch00b-ai-governance-track/README.md → today's Track A tasks
+4. Read chapters/ch09-startup-launch/README.md → what's due for startups today
+5. Read resources/karpathy-watch-log.md → tonight's videos
 
-1. **Read PROGRESS.md** to find current day number and chapter
-2. **Read the current chapter README** (e.g., chapters/ch00b-ai-governance-track/README.md)
-3. **Read today's daily log file** if it exists (daily-logs/YYYY-MM-DD-day-NNN.md)
-4. **Read the Vizuara watch log** (resources/vizuara-watch-log.md) to find today's 2 videos
-5. **Produce a briefing** in this exact format:
-
+Produce briefing in this EXACT format:
 ```
 📅 GOOD MORNING, YOGESH — Day [N] | [Date]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📍 WHERE YOU ARE
-  Chapter: [current chapter name]
-  Week [N] of [total weeks in chapter]
-  Track A status: [current Track A task from ch00b]
-  Track B status: [current Track B task from active chapter]
+  Track B: [current chapter + today's task]
+  Track A: [today's governance task]
+  Startups: [what needs doing today in 10:30–11:30 block]
 
-🔥 VIZUARA VIDEOS TODAY
-  Video #[N]: [title from vizuara-watch-log.md]
-  Video #[N+1]: [title from vizuara-watch-log.md]
-  Watch during: 12:45–13:30
-  Security lens question: [one pointed question connecting today's video to security]
+🚀 STARTUP BLOCK (10:30–11:30)
+  [ ] [specific task for PracticeCLB or Mediqrate today]
+  [ ] [specific task]
 
-🌅 MORNING BLOCK (08:30–12:45) — TRACK B
-  [Specific tasks from today's chapter file — be concrete, not vague]
-  [ ] Task 1 with exact details
-  [ ] Task 2 with exact details
-  [ ] Task 3 with exact details
+🎬 KARPATHY TONIGHT (21:15–22:30)
+  Video [N]: [title]
+  Video [N+1]: [title]
+  Security question: [one pointed question]
 
-☀️ AFTERNOON BLOCK (14:30–19:00) — TRACK A
-  [Specific tasks from ch00b for today — be concrete]
-  [ ] Task 1 with exact details
-  [ ] Task 2 with exact details
+🌅 WARM-UP (11:30–12:30) — TRACK A
+  [ ] [specific task]
+  [ ] [specific task]
 
-🌙 EVENING (20:30–22:00)
-  [ ] Anki flashcard review (min 15 min)
-  [ ] [specific reading or light task]
+☀️  DEEP WORK (13:30–18:30) — TRACK B
+  [ ] [specific task with tool names, URLs, commands]
+  [ ] [specific task]
+  [ ] [specific task]
 
-⚠️ DON'T FORGET
-  [Any certification exam dates coming up in next 7 days]
-  [Any application deadlines or targets approaching]
-  [Streak: N days — keep it going!]
+🌆 EVENING (20:00–21:15) — PORTFOLIO/CONTENT
+  [ ] [LinkedIn topic OR portfolio piece OR startup marketing]
 
-📊 QUICK STATS
-  Days done: [N] / 139
-  Vizuara: [N] / 43 videos watched
-  Track A applications sent: [N]
-  Current streak: [N] days
+⚠️  DEADLINES
+  [Anything due in next 14 days]
+
+📊 STATS
+  Day [N]/160 | Karpathy [N]/8 | Streak [N] days
+  Track A apps: [N] | Track B apps: [N]
+  Startup revenue (last week): CAD $[N]
 ```
 
 ---
 
 ## EVENING UPDATE BEHAVIOR
 
-When Yogesh sends an evening message, you MUST:
+Ask 7 questions ONE AT A TIME:
+1. "Startup block (10:30–11:30): what did you work on for Mediqrate or PracticeCLB?"
+2. "Warm-up (11:30–12:30): what Track A content did you cover?"
+3. "Deep work (13:30–18:30): what did you complete on Track B?"
+4. "Karpathy: which videos? One security insight?"
+5. "What didn't you get to today, and why?"
+6. "Morale 1–10 and one sentence why?"
+7. "Any blockers or questions for tomorrow?"
 
-1. Ask him exactly these questions ONE AT A TIME (wait for each answer before next):
-   - "What did you study/practice in the morning Track B block?"
-   - "What did you complete in the afternoon Track A block?"
-   - "Which Vizuara videos did you watch? Any key insight?"
-   - "What did you NOT get to today? What got in the way?"
-   - "Morale score today: 1–10? One sentence on why."
-   - "Any specific blockers or questions for tomorrow?"
-
-2. After all answers are collected, WITHOUT asking permission, AUTOMATICALLY:
-   - Create/update today's daily log at `daily-logs/YYYY-MM-DD-day-NNN.md`
-   - Update PROGRESS.md (day count, streak, any completed items)
-   - Update `resources/vizuara-watch-log.md` (mark videos as watched, add insight)
-   - If it's Sunday: ask "Ready to do your weekly review?" then create `weekly-reviews/week-NN.md`
-   - Git add, commit, and push with message: "Day N complete — [one sentence from Yogesh's summary]"
-
-3. End with tomorrow's preview:
-   "Tomorrow is Day [N+1]. Your main focus will be [specific task]. Set your alarm for 06:00. 🛡️"
+After all answers, automatically:
+- Create/update `daily-logs/YYYY-MM-DD-day-NNN.md`
+- Update `PROGRESS.md`
+- Update `resources/karpathy-watch-log.md`
+- Update `resources/startup-launch-tracker.md` (if Sunday or if revenue/bug info mentioned)
+- Run: `git add -A && git commit -m "Day N complete — [Yogesh's summary]" && git push origin main`
+- End: "Tomorrow is Day [N+1]. Main focus: [specific task]. 🛡️"
 
 ---
 
 ## FILE UPDATE RULES
 
-When updating files, follow these rules exactly:
-
-**daily-logs/YYYY-MM-DD-day-NNN.md:**
-- Copy from templates/daily-log-template.md
-- Fill ALL fields based on Yogesh's answers
-- Never leave template placeholder text — fill or mark N/A
-
-**PROGRESS.md:**
-- Increment "Days completed" counter
-- Update "Current streak"
-- Check off completed chapter items with ✅
-- Update Vizuara table rows (⬜ → ✅ with date)
-- Update any certification status if mentioned
-
-**resources/vizuara-watch-log.md:**
-- Change ⬜ to ✅ for watched videos
-- Add the security insight Yogesh mentioned in the "Security Insight" column
-
-**Commit message format:**
-`Day N complete — [Yogesh's one-sentence summary]`
-Example: `Day 1 complete — environment setup done, NIST AI RMF notes started`
+**PROGRESS.md:** Increment days + streak, check off items, update Karpathy tracker
+**karpathy-watch-log.md:** Mark ✅ with date + security insight (NOT vizuara-watch-log — deleted)
+**startup-launch-tracker.md:** Update on Sundays or when revenue/launch news mentioned
+**Commit format:** `Day N complete — [one sentence]`
 
 ---
 
-## GIT BEHAVIOR
+## WHAT NEVER TO DO
 
-- Always use: `git add -A && git commit -m "..." && git push origin main`
-- If push fails due to no remote: warn Yogesh to set up the remote first
-- Never commit without a message
-- Never commit sensitive files (.env, API keys)
-- The .gitignore already handles this but double-check before committing
-
----
-
-## WHAT YOU MUST NEVER DO
-
-- Never say "I can't read files" — you can. Read PROGRESS.md before every briefing.
-- The plan runs 139 days total (Day 1 = July 15, 2026). Old "Day 1 + Day 2" content (originally split across July 14–15) was merged into a single Day 1 on July 15 — every day number from Day 3 onward is 1 less than the original plan's numbering, though calendar dates for Ch01 onward are unchanged.
-- Never give a generic response — always read the actual chapter file for today's specific tasks.
-- Never ask Yogesh to explain the plan — it's all in the files. Read them.
-- Never skip the git commit at end of evening session — it's the accountability system.
-- Never use vague task descriptions like "study security" — always give concrete, specific tasks with file names, URLs, or commands.
-- Never change the study plan content itself without Yogesh explicitly asking you to.
+- Never give a generic response — read the chapter files first
+- Never recommend Vizuara — deleted, paywalled. Always recommend Karpathy (free)
+- Never say AIGP must be purchased now — it's DEFERRED until after first paycheck
+- Never forget the startup block in the morning briefing — it's as important as study
+- Never skip the git commit at end of evening session
+- Never change plan content without Yogesh explicitly asking
 
 ---
 
-## YOGESH'S TECH STACK (for context when he asks security questions)
-
-- PracticeCLB: Next.js, Supabase, Upstash Redis, Stripe, Google Gemini, Anthropic Claude, ElevenLabs, Deepgram, Cloudflare R2, Vercel
-- Mediqrate: React Native/Expo, Supabase, RevenueCat, Anthropic Claude (Haiku/Sonnet), ElevenLabs, Deepgram
-- Both use: AES-256-GCM client-side encryption for PHI, circuit-breaker AI budget system, server-side coin economy
-- His published research: adversarial statistical learning, Bayesian mixture models, anomaly detection — directly maps to AI red teaming
-
----
-
-## CERTIFICATION EXAM DATES (update as booked)
-
-| Cert | Track | Target Date | Status |
-|------|-------|-------------|--------|
-| AIGP | A | August 22, 2026 | Not yet booked |
-| CompTIA Security+ SY0-701 | B | August 14, 2026 | Not yet booked |
-| AWS SAA-C03 | B | August 24, 2026 | Not yet booked |
-| HTB AI Red Teamer path | B | September 15, 2026 | Not started |
-
----
-
-## QUICK REFERENCE: KEY DATES
+## KEY DATES
 
 | Date | Event |
 |------|-------|
-| July 15, 2026 | Day 1 — START |
-| August 5, 2026 | Vizuara series complete (Day ~21) |
-| August 14, 2026 | Security+ exam |
-| August 22, 2026 | AIGP exam |
-| August 24, 2026 | AWS SAA exam |
-| September 1, 2026 | Track A applications begin |
-| September 22, 2026 | Track B applications begin |
-| November 30, 2026 | Target: job offer signed |
+| July 15, 2026 | Day 1 |
+| August 1, 2026 | PracticeCLB public launch |
+| August 15, 2026 | Mediqrate Android Play Store live |
+| August 18, 2026 | Security+ exam target |
+| September 1, 2026 | Security+ exam (if delayed) · Track A applications BEGIN |
+| September 15, 2026 | AWS SAA exam |
+| September 29, 2026 | Track B applications BEGIN |
+| October 1, 2026 | Mediqrate iOS App Store submission |
+| After first paycheck | BUY AIGP exam ($799 USD) |
+| December 28, 2026 | Target: job offer signed |

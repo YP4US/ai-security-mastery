@@ -1,8 +1,29 @@
 # Chapter 3: Cloud Security — AWS Deep Dive
-## Days 33–42 | August 15–24, 2026
+## Days 34–43 | August 15–24, 2026
 ## 🎯 Target: Pass AWS Solutions Architect Associate (SAA-C03) by August 24
 
 > **Why AWS SAA?** It's the #1 requested cloud cert in Canadian job postings. It proves you can think about cloud architecture — which means you can also *attack* cloud architecture. Every AI system you'll red-team runs on cloud infrastructure.
+
+
+> **Daily startup block (10:30–11:30) runs throughout this chapter.**
+> Every morning: test Mediqrate + PracticeCLB, fix bugs, advance launch tasks.
+> This is non-negotiable — it runs in parallel with all study chapters.
+>
+> **Your daily schedule during this chapter:**
+> ```
+> 10:30–11:30  🚀 Startup (Mediqrate + PracticeCLB)
+> 11:30–12:30  🟡 Warm-up: Track A governance reading / Anki
+> 12:30–13:30  🍽️ Lunch
+> 13:30–16:00  🔴 Deep Work 1: this chapter's content
+> 16:00–16:15  ☀️ Break
+> 16:15–18:30  🔴 Deep Work 2: labs / practice / tools
+> 18:30–19:30  🍽️ Dinner
+> 19:30–20:00  🌿 Reset
+> 20:00–21:15  🟡 Portfolio + LinkedIn + job research
+> 21:15–22:30  🎬 Karpathy videos (2/evening until series done ~Day 8)
+> 22:45–23:00  📝 Evening check-in → Claude commits
+> ```
+
 
 ---
 
@@ -19,13 +40,13 @@
 
 ---
 
-## Days 33–37: AWS Core Services (Security Focus)
+## Days 34–38: AWS Core Services (Security Focus)
 
 ### Primary Resource
 **Udemy: "AWS Certified Solutions Architect — Associate" by Stephane Maarek** (~$15)
 - The single best SAA course available. Follow it exactly.
 
-### Day 33 — IAM: Identity is Everything
+### Day 34 — IAM: Identity is Everything
 **Study:**
 - IAM Users, Groups, Roles, Policies
 - Principle of Least Privilege (memorize this phrase)
@@ -70,7 +91,7 @@ for user in data['UserDetailList']:
 "
 ```
 
-### Day 34 — VPC + Network Security
+### Day 35 — VPC + Network Security
 **Study:**
 - VPC: subnets, route tables, internet gateways
 - Security Groups vs NACLs (stateful vs stateless)
@@ -83,7 +104,7 @@ for user in data['UserDetailList']:
 - Configure a Security Group that allows only HTTPS inbound
 - Enable VPC Flow Logs and examine them
 
-### Day 35 — S3 Security + Encryption
+### Day 36 — S3 Security + Encryption
 **Study:**
 - S3 bucket policies vs IAM policies (when to use which)
 - Block Public Access settings (why they matter)
@@ -101,7 +122,7 @@ aws s3api get-public-access-block --bucket your-bucket-name
 # These are the exact checks AI security tools run against ML model storage
 ```
 
-### Day 36 — Compute Security: EC2 + Lambda
+### Day 37 — Compute Security: EC2 + Lambda
 **Study:**
 - EC2 instance roles (never hardcode credentials)
 - Systems Manager (SSM) — access instances without SSH keys
@@ -112,7 +133,7 @@ aws s3api get-public-access-block --bucket your-bucket-name
 - Deploy a Lambda function with a properly scoped execution role
 - Enable ECR image scanning on your container registry
 
-### Day 37 — AWS Security Services
+### Day 38 — AWS Security Services
 **Study (all of these show up in AI security job interviews):**
 - **AWS GuardDuty**: ML-based threat detection — irony: AI securing AI
 - **AWS Macie**: ML-based sensitive data discovery in S3 (PHI, PII)
@@ -122,9 +143,9 @@ aws s3api get-public-access-block --bucket your-bucket-name
 
 ---
 
-## Days 38–41: Practice + Advanced Topics
+## Days 39–42: Practice + Advanced Topics
 
-### Day 38 — Hands-On Lab Day
+### Day 39 — Hands-On Lab Day
 ```bash
 # Build this architecture from scratch:
 # Internet → ALB → EC2 in private subnet → RDS in private subnet
@@ -138,13 +159,13 @@ aws cloudformation create-stack \
   --capabilities CAPABILITY_IAM
 ```
 
-### Day 39 — Practice Exam Day
+### Day 40 — Practice Exam Day
 - [ ] Full 65-question practice exam (Maarek course practice tests)
 - [ ] Target: 72%+
 - [ ] Watch: Tutorials Dojo explanations for wrong answers
 - [ ] Add weak topics to Anki
 
-### Day 40 — Cloud Security Attack Techniques (Red Team Perspective)
+### Day 41 — Cloud Security Attack Techniques (Red Team Perspective)
 **This is what bridges AWS knowledge to your AI red teaming role:**
 
 ```python
@@ -168,12 +189,12 @@ aws cloudformation create-stack \
 # Pulling a malicious base image can poison the entire ML pipeline
 ```
 
-### Day 41 — AWS Well-Architected Framework: Security Pillar
+### Day 42 — AWS Well-Architected Framework: Security Pillar
 - Read the security pillar whitepaper (free on AWS): https://docs.aws.amazon.com/wellarchitected/
 - This is what enterprise architects think about — speaking this language in interviews is powerful
 - Create: `resources/aws-security-pillar-notes.md`
 
-### Day 42 — EXAM DAY 🎯
+### Day 43 — EXAM DAY 🎯
 - Same strategy as Security+ exam day
 - Register at Pearson VUE Ottawa
 - After passing: update LinkedIn, resume, GitHub

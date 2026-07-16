@@ -63,6 +63,28 @@
 
 ---
 
+
+---
+
+## 🚀 Startup Progress This Week
+
+### PracticeCLB
+- Users this week: 
+- Revenue: CAD $
+- Bugs fixed:
+- Key milestone:
+
+### Mediqrate
+- Downloads:
+- Revenue: CAD $
+- Bugs fixed:
+- Key milestone:
+
+### Career Evidence Found
+(Things from startups that become interview talking points)
+1.
+2.
+
 ## 📈 Skill Progress Assessment
 
 Rate yourself honestly (1–5):

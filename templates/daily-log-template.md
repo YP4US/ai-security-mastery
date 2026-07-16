@@ -1,92 +1,83 @@
-# Daily Log — YYYY-MM-DD (Day X)
+# Daily Log — YYYY-MM-DD (Day N of 160)
 
-## Chapter: ChXX | Week X of X in this chapter
-
----
-
-## ⏰ Schedule Executed
-
-| Block | Time | Planned | Actual | Notes |
-|-------|------|---------|--------|-------|
-| Morning | 08:30–10:30 | | | |
-| Lab | 10:45–12:45 | | | |
-| Review | 12:45–13:30 | | | |
-| Afternoon | 14:30–16:30 | | | |
-| Project | 16:45–18:45 | | | |
-| Evening | 20:30–22:00 | | | |
+## Chapter: ChXX + Ch09 Startup
 
 ---
 
-## 📚 What I Studied Today
+## ⏰ Schedule
 
-**Topic:**
+| Block | Time | Task | Done |
+|-------|------|------|------|
+| Wake + briefing | 09:30–10:30 | Morning routine + Claude briefing | ⬜ |
+| 🚀 Startup | 10:30–11:30 | | ⬜ |
+| 🟡 Warm-up (A) | 11:30–12:30 | | ⬜ |
+| 🍽️ Lunch | 12:30–13:30 | REST | ⬜ |
+| 🔴 Deep Work 1 | 13:30–16:00 | | ⬜ |
+| ☀️ Break | 16:00–16:15 | Walk | ⬜ |
+| 🔴 Deep Work 2 | 16:15–18:30 | | ⬜ |
+| 🍽️ Dinner | 18:30–19:30 | REST | ⬜ |
+| 🌿 Reset | 19:30–20:00 | | ⬜ |
+| 🟡 Portfolio | 20:00–21:15 | | ⬜ |
+| 🎬 Karpathy | 21:15–22:30 | Videos N and N+1 | ⬜ |
+| 📝 Log | 22:45–23:00 | Evening check-in + commit | ⬜ |
 
-**Resource(s) used:**
+---
 
-**Key concepts I learned:**
+## 🚀 Startup Block (10:30–11:30)
+
+**PracticeCLB:**
+- [ ]
+**Mediqrate:**
+- [ ]
+
+---
+
+## 📚 What I Studied
+
+**Track A (warm-up):**
+**Track B (deep work):**
+**Karpathy:**
+
+**Key concepts:**
 1.
 2.
 3.
 
 ---
 
-## 🔨 What I Built / Practiced
+## 🔨 Built / Practiced
 
-**Lab / Exercise:**
-
-**What I did:**
-
+**Lab/exercise:**
 **What worked:**
-
 **What I struggled with:**
 
 ---
 
-## 💡 Key Insight of the Day
+## 💡 Key Insight
 
-*The one thing that clicked today, in your own words:*
+## 🔐 Karpathy Security Insight
 
----
-
-## ❓ Open Questions (things I don't understand yet)
-
+## ❓ Open Questions
 1.
 2.
-3.
 
----
-
-## 🐛 Blockers
-
-*Anything stopping progress? What's the plan to resolve it?*
-
----
+## 🐛 Startup Bugs Today
+| App | Severity | Description | Fixed? |
+|-----|----------|-------------|--------|
 
 ## 📊 Progress Check
+- [ ] Chapter items done
+- [ ] Karpathy log updated
+- [ ] LinkedIn: posted or engaged
+- [ ] Anki: 15+ min
+- [ ] Commit pushed
 
-- [ ] Today's checklist items completed
-- [ ] Daily commit pushed to GitHub
-- [ ] LinkedIn: posted or engaged with AI security content
-- [ ] Anki: reviewed flashcards (minimum 10 min)
+## 🌡️ Morale: /10
 
----
-
-## 🌡️ Energy / Morale Today (1–10)
-
-**Score:** /10
-
-**Notes:**
-
----
-
-## 📅 Plan for Tomorrow
-
+## 📅 Tomorrow (Day N+1)
 **Main focus:**
-
-**Specific tasks:**
 1.
 2.
 3.
 
----
-*Commit this file: `git add . && git commit -m "Day X complete — [one sentence]"`*
+*git add . && git commit -m "Day N complete — [one sentence]"*

@@ -1,6 +1,12 @@
 # Chapter 2: Security Core — CompTIA Security+ Prep
-## Days 18–32 | August 1–14, 2026
-## 🎯 Target: Pass CompTIA Security+ SY0-701 by August 14
+## Days 19–35 | August 2–18, 2026 (extended to 17 days)
+## 🎯 Target: Pass CompTIA Security+ SY0-701 by August 18, 2026
+
+> **Daily startup block (10:30–11:30) continues throughout this chapter.**
+> Mediqrate Android launch target is August 15 — these two things run in parallel.
+> The extra days vs. the original plan give you breathing room to not cram.
+## Days 19–33 | August 1–14, 2026
+## 🎯 Target: Pass CompTIA Security+ SY0-701 by August 18
 
 > **Why Security+ first?** It's the most recognized entry-level security cert in Canada. Government agencies (CSE, CSIS, DND) require it. Banks love it. It validates your security vocabulary to every recruiter. Most importantly — studying for it fills the gaps in foundational security knowledge that your ML/software background left open.
 
@@ -22,7 +28,7 @@
 
 ---
 
-## WEEK 1 of Chapter 2 (Days 18–24 | Aug 1–7)
+## WEEK 1 of Chapter 2 (Days 19–25 | Aug 1–7)
 
 ### Primary Study Resource
 **Udemy: "CompTIA Security+ (SY0-701) Complete Course"** by Jason Dion or Mike Chapple
@@ -32,15 +38,24 @@
 ### Daily Schedule for Ch02
 
 Each day follows this structure:
-- **Morning (08:30–10:30):** Study new domain — read + watch videos
-- **Labs (10:45–12:45):** TryHackMe rooms matching today's domain
-- **Afternoon (14:30–16:30):** Practice questions (50 questions minimum)
-- **Project (16:45–18:45):** Apply today's learning to your own systems
-- **Evening (20:30–22:00):** Flashcard review (use Anki — free)
+
+```
+10:30–11:30   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB — testing/bugs/launch)
+11:30–12:30   🟡 WARM-UP — Security+ reading: 1 new domain section
+12:30–13:30   🍽️ LUNCH (full hour, no screens)
+13:30–16:00   🔴 DEEP WORK 1 — Security+ video course + labs
+16:00–16:15   ☀️ BREAK
+16:15–18:30   🔴 DEEP WORK 2 — 50 practice questions minimum
+18:30–19:30   🍽️ DINNER (full hour, no screens)
+19:30–20:00   🌿 RESET
+20:00–21:15   🟡 PORTFOLIO — Track A governance work (ch00b parallel tasks)
+21:15–22:30   🎬 KARPATHY VIDEOS (2 per evening until series done)
+22:45–23:00   📝 EVENING CHECK-IN → Claude commits
+```
 
 ---
 
-### Day 18 — Domain 1: Cryptography + PKI
+### Day 19 — Domain 1: Cryptography + PKI
 **Study:**
 - Symmetric vs Asymmetric encryption (AES, RSA, ECC)
 - Hashing (SHA-256, MD5 — why MD5 is broken)
@@ -67,7 +82,7 @@ Each day follows this structure:
 
 ---
 
-### Day 19 — Domain 1: Access Control + Identity
+### Day 20 — Domain 1: Access Control + Identity
 **Study:**
 - Authentication factors (something you know/have/are)
 - MFA, SSO, SAML, OAuth, OpenID Connect
@@ -84,7 +99,7 @@ Each day follows this structure:
 
 ---
 
-### Day 20 — Domain 2: Threat Landscape
+### Day 21 — Domain 2: Threat Landscape
 **Study:**
 - Threat actors: Nation-state, hacktivist, insider, cybercriminal
 - Attack vectors: Phishing, social engineering, supply chain
@@ -100,7 +115,7 @@ Each day follows this structure:
 
 ---
 
-### Day 21 — Domain 2: Vulnerabilities + Social Engineering
+### Day 22 — Domain 2: Vulnerabilities + Social Engineering
 **Study:**
 - OWASP Top 10 (web) — you've seen these, now memorize them
 - Buffer overflow, SQL injection, XSS, CSRF, SSRF
@@ -112,7 +127,7 @@ Each day follows this structure:
 
 ---
 
-### Day 22 — Domain 3: Network Security Architecture
+### Day 23 — Domain 3: Network Security Architecture
 **Study:**
 - Firewalls: Stateful vs stateless, WAF, NGFW
 - VPNs: Site-to-site, remote access, IPSec, SSL/TLS VPN
@@ -126,7 +141,7 @@ Each day follows this structure:
 
 ---
 
-### Day 23 — Domain 3: Cloud Security Architecture
+### Day 24 — Domain 3: Cloud Security Architecture
 **Study (this should feel familiar from your startup days):**
 - Shared responsibility model (your MOST important concept for cloud security)
 - Cloud security controls: CASB, CSPM, CWPP
@@ -141,7 +156,7 @@ Each day follows this structure:
 
 ---
 
-### Day 24 — Review Day 0 + Practice Exam
+### Day 25 — Review Day 1 + Practice Exam
 - [ ] Complete a full 90-question practice exam (Dion or ExamCompass)
 - [ ] Target: 70%+ (if below 65%, revisit weaker domains)
 - [ ] Create a list of every question you got wrong — study those topics only
@@ -149,9 +164,9 @@ Each day follows this structure:
 
 ---
 
-## WEEK 2 of Chapter 2 (Days 25–32 | Aug 8–14)
+## WEEK 2 of Chapter 2 (Days 26–33 | Aug 8–14)
 
-### Day 25 — Domain 4: Security Operations — Monitoring
+### Day 26 — Domain 4: Security Operations — Monitoring
 **Study:**
 - SIEM: what it is, how it works (Splunk, Microsoft Sentinel)
 - Log management, log retention
@@ -168,7 +183,7 @@ Each day follows this structure:
 
 ---
 
-### Day 26 — Domain 4: Incident Response
+### Day 27 — Domain 4: Incident Response
 **Study:**
 - IR lifecycle: Preparation → Identification → Containment → Eradication → Recovery → Lessons Learned
 - NIST SP 800-61 (Incident Handling Guide) — read the executive summary
@@ -180,7 +195,7 @@ Each day follows this structure:
 
 ---
 
-### Day 27 — Domain 4: Vulnerability Management
+### Day 28 — Domain 4: Vulnerability Management
 **Study:**
 - Vulnerability scanning vs penetration testing (critical difference)
 - Tools: Nessus, OpenVAS, Qualys
@@ -201,7 +216,7 @@ nmap -sV --script=banner localhost
 
 ---
 
-### Day 28 — Domain 5: Security Program Management
+### Day 29 — Domain 5: Security Program Management
 **Study:**
 - Risk management: Risk appetite, risk tolerance, residual risk
 - Security frameworks: NIST CSF, ISO 27001, SOC 2
@@ -216,7 +231,7 @@ nmap -sV --script=banner localhost
 
 ---
 
-### Day 29 — Domain 5: Governance, Ethics, Compliance
+### Day 30 — Domain 5: Governance, Ethics, Compliance
 **Study:**
 - Security policies, standards, procedures, guidelines (hierarchy)
 - Data retention policies
@@ -230,7 +245,7 @@ nmap -sV --script=banner localhost
 
 ---
 
-### Day 30 — Full Practice Exam + Review
+### Day 31 — Full Practice Exam + Review
 - [ ] Take TWO full 90-question practice exams (back to back)
 - [ ] Target: 80%+ on both
 - [ ] Review every wrong answer — understand WHY, not just WHAT
@@ -238,7 +253,7 @@ nmap -sV --script=banner localhost
 
 ---
 
-### Day 31 — Performance-Based Questions (PBQ) Practice
+### Day 32 — Performance-Based Questions (PBQ) Practice
 Security+ has "Performance Based Questions" — drag-and-drop, simulation tasks.
 
 **Practice:**
@@ -248,7 +263,7 @@ Security+ has "Performance Based Questions" — drag-and-drop, simulation tasks.
 
 ---
 
-### Day 32 — EXAM DAY 🎯
+### Day 33 — EXAM DAY 🎯
 **The night before:**
 - No new studying after 20:00
 - Review your flashcards for 30 min

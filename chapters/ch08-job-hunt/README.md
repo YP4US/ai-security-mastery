@@ -1,5 +1,15 @@
 # Chapter 8: Job Hunt — Both Tracks
-## Days 101–139 | October 22 – November 30, 2026
+## Days 111–160 | November 4 – December 28, 2026
+
+> **Startup block (10:30–11:30) continues.** By this point:
+> - PracticeCLB is live and has paying users
+> - Mediqrate Android is on Play Store
+> - Mediqrate iOS is submitted or live
+> - Both apps are active interview talking points
+> - Startup revenue is extending your runway while you job hunt
+>
+> **AIGP exam:** If you have received your first Track A paycheck, now is the time to buy the $799 USD AIGP exam. You have studied all the content during Ch00B — you will pass easily.
+## Days 111–160 | November 4 – December 28, 2026
 
 > By now: AIGP ✅ · Security+ ✅ · AWS SAA ✅ · LLM Dashboard live ✅ · 
 > Mediqrate AI Audit published ✅ · Track A pipeline active since Sep 1 ✅ · 
@@ -7,7 +17,7 @@
 
 ---
 
-## Where You Should Be by Day 101
+## Where You Should Be by Day 102
 
 **Track A status (started Sep 1 — 7 weeks in):**
 - 20+ applications sent
@@ -122,7 +132,7 @@ If you start in a Track A role, aim to move into a hybrid Track A+B role (AI Sec
 
 You started on July 15, 2026 with rusty skills, two unfinished startups, a 2-year career gap, and a feeling that you were behind.
 
-By November 30:
+By December 28:
 - You published 9 papers before most people knew "AI red teaming" was a job title
 - You built two production AI systems that real people use
 - You learned more in 4.5 months than most people learn in 2 years

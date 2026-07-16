@@ -1,58 +1,45 @@
-# 🌅 Morning Message — Copy and Send This Every Morning
+# 🌅 Morning Message — Send This Every Morning (~10:00)
 
-Open Claude Code in VS Code, navigate to the `ai-security-mastery` folder, and send:
-
----
-
-```
-Good morning. Please give me my Day [N] briefing.
-
-Read PROGRESS.md to get my current day number and status.
-Read the current chapter README for today's specific tasks.
-Read resources/vizuara-watch-log.md for today's 2 videos.
-Read resources/track-a-job-targets.md for any application deadlines.
-
-Then give me my full morning briefing in the format from CLAUDE.md.
-```
+Open Claude Code in VS Code (ai-security-mastery folder) and send:
 
 ---
 
-## How to fill in [N]
-
-Day 1 = July 15, 2026
-Day 2 = July 16, 2026
-...and so on.
-
-Or just say "Good morning, please give me today's briefing" — Claude will read PROGRESS.md to figure out what day it is.
-
----
-
-## Even Simpler Version (Claude will figure out the rest)
-
+## Simple version
 ```
 Good morning. Day briefing please.
 ```
 
-Claude Code will read PROGRESS.md, find your current day, read the right chapter, and produce your full briefing automatically.
-
----
-
-## If Something Feels Off
-
-If Claude gives you a generic response instead of reading your files, say:
-
+## If Claude seems confused
 ```
-Read PROGRESS.md first, then read chapters/[current chapter]/README.md, 
-then give me today's briefing.
+Read PROGRESS.md for my current day.
+Read the active Track B chapter README.
+Read chapters/ch00b-ai-governance-track/README.md for Track A.
+Read chapters/ch09-startup-launch/README.md for startup tasks.
+Read resources/karpathy-watch-log.md for tonight's videos.
+Give me my full morning briefing as per CLAUDE.md format.
 ```
 
----
+## What you get back
+- Startup block task (10:30–11:30): what to do for Mediqrate/PracticeCLB today
+- Warm-up task (11:30–12:30): Track A governance reading
+- Deep work tasks (13:30–18:30): Track B specifics with commands and URLs
+- Evening content task (20:00–21:15): LinkedIn or portfolio
+- Tonight's Karpathy videos (21:15–22:30)
+- Quick stats: day number, streak, revenue update reminder
 
-## What to Expect Back
-
-Claude will return a structured briefing with:
-- Your exact tasks for the morning (Track B) and afternoon (Track A)
-- Which 2 Vizuara videos to watch at 11:15
-- Your stats (days done, streak, Vizuara count)
-- Any upcoming exam dates or deadlines
-- A focused security question to think about during today's Vizuara viewing
+## Schedule reminder
+```
+09:30   Wake up
+10:00   Morning briefing
+10:30   🚀 Startup block (Mediqrate + PracticeCLB)
+11:30   🟡 Track A warm-up
+12:30   🍽️ Lunch (1 hour)
+13:30   🔴 Deep Work 1 (Track B)
+16:00   ☀️ Break (walk)
+16:15   🔴 Deep Work 2
+18:30   🍽️ Dinner (1 hour)
+19:30   🌿 Reset
+20:00   🟡 Portfolio + content
+21:15   🟡 Karpathy videos
+22:45   📝 Evening check-in
+```

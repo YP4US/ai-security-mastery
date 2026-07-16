@@ -1,193 +1,266 @@
 # Chapter 0: Orientation & Environment Setup
-## Days 1–2 | July 15–16, 2026
+## Days 1–3 | July 15–17, 2026
 
-> **Goal:** Have a fully configured development and security research environment ready to go. Zero friction from Day 3 onward.
+> **Goal:** Fully configured environment, all accounts created, first tools run.
+> Zero friction from Day 4 onward.
 
 ---
 
-## 🧠 Mindset Check Before You Start
+## Your Schedule Reminder (New — Night Person Edition)
 
-Read this every time you feel stuck or want to give up:
+```
+09:30–10:30   Wake up + coffee + read today's plan
+10:30–11:30   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB testing)
+11:30–12:30   🟡 WARM-UP — Track A (governance reading, Anki)
+12:30–13:30   🍽️ LUNCH (full hour, no screens — you cook)
+13:30–16:00   🔴 DEEP WORK 1 — Track B (labs, tools, coding)
+16:00–16:15   ☀️ BREAK (walk outside)
+16:15–18:30   🔴 DEEP WORK 2 — Track B or Track A heavy work
+18:30–19:30   🍽️ DINNER (full hour, no screens — you cook)
+19:30–20:00   🌿 RESET (walk, music)
+20:00–21:15   🟡 PORTFOLIO + CONTENT (LinkedIn, writing, job research)
+21:15–22:30   🎬 KARPATHY VIDEOS (2 per evening — free on YouTube)
+22:45–23:00   📝 EVENING CHECK-IN (Claude Code → updates files → commits)
+```
 
-**You have 9 published IEEE papers in adversarial ML. You literally wrote peer-reviewed research on attacking ML systems. Most people applying for AI red teaming jobs don't even know what a mixture model is. You are not starting from zero. You are translating existing expertise into a new vocabulary.**
+---
 
-The job market gap you're closing is not a knowledge gap. It's a tooling and positioning gap. That's a 3-month problem, not a 3-year problem.
+## Mindset Check (Read This Once)
+
+You have 9 published IEEE papers on adversarial ML. You built two production AI systems. You implemented PIPEDA-compliant PHI encryption. The gap between where you are and "AI Security Engineer" is a vocabulary gap and a tooling gap — not a knowledge gap. That's a 5-month problem. This chapter is Days 1–3 of solving it.
 
 ---
 
 ## Day 1 — July 15 (Today)
 
-> **Note:** Day 1 covers everything originally planned for the first two orientation days — full environment setup, first garak scan, MITRE ATLAS, and the DeepLearning.AI course — since the plan's start date moved from July 14 to July 15. Expect this day to run long; nothing was cut.
+### 🚀 Startup Block (10:30–11:30)
+- [ ] Open PracticeCLB as a fresh user — go through the full exam flow
+- [ ] Note the first 3 things that feel broken or confusing
+- [ ] Open Mediqrate — go through onboarding as a new user
+- [ ] Log any bugs in `resources/startup-launch-tracker.md`
 
-### Block 1 (08:30–10:30): Read & Plan
-- [ ] Read the master README.md top to bottom (you just did this)
-- [ ] Read this file completely
-- [ ] Open PROGRESS.md and fill in your start date
-- [ ] Watch: "What is AI Red Teaming?" (YouTube search: "AI red teaming explained 2026" — pick a video under 20 min)
-- [ ] Watch: "DevSecOps vs MLSecOps vs AI Red Teaming" (search YouTube)
+### 🟡 Warm-up / Track A (11:30–12:30)
+- [ ] Read the master README.md top to bottom
+- [ ] Read this file (Ch00) completely
+- [ ] Read chapters/ch00b-ai-governance-track/README.md introduction
+- [ ] Watch one YouTube video: search "AI red teaming explained 2026" (~15 min)
 
-### Block 2 (10:45–12:45): Environment Setup Part 1
-**Install these tools — every single one:**
+### 🔴 Deep Work 1 — Environment Setup (13:30–16:00)
+**Install everything below. Do not skip anything.**
 
 ```bash
-# 1. Python 3.11+ (check: python3 --version)
-# Already have it? Good. If not: https://python.org/downloads
+# 1. Python 3.11+ — check: python3 --version
 
-# 2. VS Code
-# https://code.visualstudio.com — install these extensions:
-#   - Python (Microsoft)
-#   - GitHub Copilot (free with GitHub Education or trial)
-#   - GitLens
-#   - Jupyter
+# 2. VS Code extensions to install:
+#    Python (Microsoft), GitLens, Jupyter, GitHub Copilot (free trial)
 
 # 3. Git setup
 git config --global user.name "Yogesh Pawar"
 git config --global user.email "yogeshpawar223@gmail.com"
 
-# 4. Create your GitHub repo
-# Go to github.com → New repository → "ai-security-mastery" → Private
-# Then push this folder to it
-
-# 5. Create Python virtual environment
+# 4. Create Python virtual environment
 python3 -m venv ~/security-env
 source ~/security-env/bin/activate   # Mac/Linux
 # security-env\Scripts\activate       # Windows
 
-# 6. Install core security tools
+# 5. Install core security tools
 pip install garak
 pip install adversarial-robustness-toolbox
-pip install promptfoo  # or: npm install -g promptfoo
 pip install requests rich click python-dotenv
 pip install jupyter notebook
 pip install openai anthropic
+pip install chromadb sentence-transformers
 ```
 
-### Block 3 (12:45–13:30): Vizuara Break
-- [ ] Videos #1 + #2 (Series intro + LLM overview)
+### ☀️ Break (16:00–16:15) — Walk outside
 
-### Block 4 (14:30–16:30): Environment Setup Part 2
+### 🔴 Deep Work 2 — Environment Setup Continued (16:15–18:30)
 ```bash
-# 7. Install Docker (for containerized security labs)
+# 6. Install Docker
 # https://docs.docker.com/get-docker/
 
-# 8. Set up Ollama (run LLMs locally — free, no API key needed)
+# 7. Install Ollama (run LLMs locally — FREE, no API cost)
 # https://ollama.ai/download
-# After install:
-ollama pull llama3.2:1b    # small model for testing (600MB)
-ollama pull mistral:7b     # better model for red teaming (4GB, needs 8GB RAM)
+ollama pull llama3.2:1b    # small model, ~600MB
+# After download, test it:
+ollama run llama3.2:1b "Hello, who are you?"
 
-# 9. Create API accounts (free tiers)
-# - OpenAI: platform.openai.com (get $5 free credit)
-# - Anthropic: console.anthropic.com (get $5 free credit)
+# 8. Create API accounts (free tiers):
+# - OpenAI: platform.openai.com ($5 free credit)
+# - Anthropic: console.anthropic.com ($5 free credit)
 # - Hugging Face: huggingface.co (completely free)
 # - AWS: aws.amazon.com/free (12 months free tier)
 
-# 10. Set up .env file for API keys
-cat > ~/security-env/.env << 'EOF'
+# 9. Create accounts on:
+# - TryHackMe: tryhackme.com (free tier)
+# - HackTheBox: hackthebox.com (free tier)
+# - Gandalf AI: gandalf.lakera.ai (free — prompt injection practice)
+
+# 10. Set up your .env file for API keys
+cat > ~/security-env/.env << 'ENVEOF'
 OPENAI_API_KEY=your_key_here
 ANTHROPIC_API_KEY=your_key_here
 HUGGINGFACE_TOKEN=your_token_here
 AWS_ACCESS_KEY_ID=your_key_here
 AWS_SECRET_ACCESS_KEY=your_key_here
-EOF
+ENVEOF
 ```
 
-### Block 5 (16:45–18:00): Environment Setup Part 3
-- [ ] Create account on TryHackMe.com (free tier to start)
-- [ ] Complete your TryHackMe profile (real name, Ottawa location)
-- [ ] Create account on HackTheBox.com (free)
-- [ ] Create account on Gandalf AI: https://gandalf.lakera.ai (free prompt injection game)
-- [ ] Bookmark ALL resources from master README
-- [ ] Set up LinkedIn — update headline to: "AI/ML Security Researcher | Building @ Mediqrate & PracticeCLB | Adversarial ML | 9 IEEE Publications"
+### 🍽️ Dinner (18:30–19:30)
 
-### Block 6 (18:00–19:00): Reading
-- [ ] Read: https://mlsecops.com/what-is-mlsecops (20 min)
-- [ ] Read: OWASP LLM Top 10 overview (just the names + 1-line descriptions for now): https://owasp.org/www-project-top-10-for-large-language-model-applications/
+### 🟡 Portfolio/Content (20:00–21:15)
+- [ ] Create `resources/nist-ai-rmf-notes.md` — write headings for all 4 functions
+- [ ] Create `resources/eu-ai-act-risk-tiers.md` — write the 4 risk tiers with examples
+- [ ] Read: https://mlsecops.com — introduction article
 
-### Block 7 (19:30–20:30): Framework Deep Read
-**MITRE ATLAS — This is your bible. Learn it cold.**
-- [ ] Go to: https://atlas.mitre.org
-- [ ] Read the "About" section completely
-- [ ] Browse ALL tactics (left sidebar): Initial Access, ML Model Access, Execution, Persistence, etc.
-- [ ] For each tactic, read 2–3 technique descriptions
-- [ ] Create a new file: `resources/mitre-atlas-notes.md` — write a 1-sentence summary of each tactic in your own words
+### 🎬 Karpathy (21:15–22:30)
+- [ ] Watch Video 1: "The spelled-out intro to neural networks and backpropagation"
+- [ ] Watch Video 2: "The spelled-out intro to language modeling: building makemore"
+- [ ] Mark both ✅ in resources/karpathy-watch-log.md with one security insight
 
-### Block 8 (20:30–22:00): First garak Run + DeepLearning.AI Course
-```bash
-# Activate your environment
-source ~/security-env/bin/activate
-
-# Test garak against a local Ollama model (free — no API cost)
-# First make sure ollama is running: ollama serve
-garak --model_type ollama --model_name llama3.2:1b --probes encoding
-garak --model_type ollama --model_name llama3.2:1b --probes promptinject
-
-# Save the output report
-# garak creates a report file — find it and save to portfolio/day1-first-garak-run/
-```
-
-**Observation journal** — after running garak, write in your daily log:
-1. What did garak actually test?
-2. What vulnerabilities did it find (if any)?
-3. What do you not understand yet about the output?
-
-- [ ] Go to: https://learn.deeplearning.ai/courses/red-teaming-llm-applications
-- [ ] Complete ALL lessons (free, ~1 hour total)
-- [ ] Take notes in `resources/deeplearning-ai-notes.md`
-- [ ] Try: https://gandalf.lakera.ai — attempt all 7 levels, note your techniques
-- [ ] Watch YouTube: "Prompt Injection Explained" by Johann Rehberger (search: "Rehberger prompt injection")
-- [ ] Start reading: NIST AI Risk Management Framework overview (https://airc.nist.gov)
-- [ ] Write Day 1 log + git commit
+### 📝 Evening check-in (22:45)
+Send "Evening check-in. Ready." to Claude Code.
 
 ---
 
 ## Day 2 — July 16
 
-### Morning Block (08:30–10:30): The Big Picture Read
-Today is strategic — you're learning how everything connects.
+### 🚀 Startup Block (10:30–11:30)
+- [ ] PracticeCLB: fix or document the highest-severity bug from yesterday
+- [ ] Mediqrate: test the Vita AI chat flow end-to-end
+- [ ] Update bug log in `resources/startup-launch-tracker.md`
 
-- [ ] Read: https://www.practical-devsecops.com/ai-red-teaming-beginners-guide/ (complete article)
-- [ ] Read: https://dualitytech.com/blog/shifting-from-devsecops-to-mlsecops/ (complete)
-- [ ] Create `resources/field-map.md` — draw (in text/ASCII) how DevSecOps → MLSecOps → AI Red Teaming relate to each other
+### 🟡 Warm-up / Track A (11:30–12:30)
+**MITRE ATLAS — This is your bible. Learn it today.**
+- [ ] Go to: https://atlas.mitre.org
+- [ ] Read the "About" section completely
+- [ ] Browse ALL tactics in the left sidebar — for each one write 1 sentence in your own words
+- [ ] Save to: `resources/mitre-atlas-notes.md`
 
-### Lab Block (10:45–12:45): PyRIT Introduction
+### 🔴 Deep Work 1 (13:30–16:00): First garak Scan
+```bash
+# Activate environment
+source ~/security-env/bin/activate
+
+# Make sure Ollama is running
+ollama serve &   # (or open Ollama app if it has a GUI)
+
+# Run your first AI security scan — FREE, no API cost
+garak --model_type ollama --model_name llama3.2:1b --probes promptinject
+garak --model_type ollama --model_name llama3.2:1b --probes encoding
+
+# Save the output:
+garak --model_type ollama \
+      --model_name llama3.2:1b \
+      --probes promptinject,encoding \
+      --report_prefix portfolio/day2-first-garak-scan
+
+# After it runs, look at the results:
+cat portfolio/day2-first-garak-scan.jsonl | python3 -m json.tool | head -50
+```
+
+**Write in your daily log:**
+1. What did garak actually test?
+2. What did it find?
+3. What do you not understand about the output yet?
+
+### 🔴 Deep Work 2 (16:15–18:30): DeepLearning.AI Course
+- [ ] Go to: https://learn.deeplearning.ai/courses/red-teaming-llm-applications
+- [ ] Complete ALL lessons (free, ~1 hour total)
+- [ ] Save notes to: `resources/deeplearningai-redteaming-notes.md`
+- [ ] Try Gandalf AI: https://gandalf.lakera.ai — attempt levels 1–7
+
+### 🟡 Portfolio/Content (20:00–21:15)
+- [ ] Write your first LinkedIn post (this is important — do not skip):
+
+```
+"Day 2 of my AI security journey. I just ran my first automated 
+LLM vulnerability scan using garak against a local llama3.2 model.
+Finding: [what you found]. As someone who published research on
+adversarial ML before it was called 'AI red teaming,' this is
+the same attack class I studied in 2020 — different model architecture.
+#AISecurity #LLMSecurity #AIRedTeaming"
+```
+
+### 🎬 Karpathy (21:15–22:30)
+- [ ] Watch Video 3: "Building makemore Part 2: MLP"
+- [ ] Watch Video 4: "Building makemore Part 3: Activations, Gradients, BatchNorm"
+- [ ] Mark ✅ in karpathy-watch-log.md
+
+---
+
+## Day 3 — July 17
+
+### 🚀 Startup Block (10:30–11:30)
+- [ ] PracticeCLB: test payment flow (Stripe test mode) — buy a plan as a user
+- [ ] Mediqrate: test subscription purchase + restore (RevenueCat test mode)
+- [ ] Document any issues
+
+### 🟡 Warm-up / Track A (11:30–12:30)
+- [ ] Read: https://artificialintelligenceact.eu — complete overview (~30 min)
+- [ ] Update `resources/eu-ai-act-risk-tiers.md` with what you just learned
+
+### 🔴 Deep Work 1 (13:30–16:00): PyRIT Introduction
 ```bash
 # Install PyRIT (Microsoft's AI red teaming toolkit)
 pip install pyrit
 
-# Follow the quickstart:
+# Follow the quickstart at:
 # https://github.com/Azure/PyRIT/blob/main/doc/quickstart.ipynb
-# Run through the basic example in Jupyter notebook
+# Run through the basic example in Jupyter:
 jupyter notebook
-# Create: portfolio/day2-pyrit-intro.ipynb
+# Create: portfolio/day3-pyrit-intro.ipynb
 ```
 
-### Afternoon Block (14:30–18:45): LinkedIn Content + GitHub
-- [ ] Write your first LinkedIn post (100–150 words):
-  *"I'm publicly committing to mastering AI security over the next 110 days. I have 9 published papers in adversarial ML and today I ran my first LLM red-teaming scan using garak. Day 1 findings: [what you found]. Following this daily. #AISecurity #RedTeaming #MLSecOps"*
-- [ ] Push your repo to GitHub (make it public — it's your portfolio)
-- [ ] Add a good README to your GitHub profile repo
+### 🔴 Deep Work 2 (16:15–18:30): GitHub + LinkedIn Setup
+- [ ] Push this repo to GitHub (follow SETUP.sh instructions)
+- [ ] Verify CLAUDE.md loads in Claude Code: type "What project are you working on?"
+- [ ] Update LinkedIn headline:
+  `"AI Security & Governance Specialist | Adversarial ML Researcher (9 IEEE Papers) | Founder @ Mediqrate & PracticeCLB"`
 
-### Evening Block (20:30–22:00): Week 1 Prep
-- [ ] Read Ch01 README (your next chapter) completely
+### 🟡 Portfolio/Content (20:00–21:15)
+- [ ] Read Chapter 1 README completely (your next chapter)
+- [ ] Read ch00b README Week 1 section
 - [ ] Enroll in TryHackMe Pre-Security path (free)
-- [ ] Write Day 2 log + **weekly review for Week 1 setup**
+
+### 🎬 Karpathy (21:15–22:30)
+- [ ] Watch Video 5: "Building makemore Part 4: Becoming a Backprop Ninja"
+- [ ] Watch Video 6: "Building makemore Part 5: WaveNet"
+- [ ] Mark ✅ in karpathy-watch-log.md
 
 ---
 
 ## ✅ Chapter 0 Completion Checklist
 
-- [ ] VS Code + extensions installed
-- [ ] Python environment set up with garak, PyRIT, ART
-- [ ] Ollama running locally with at least one model
-- [ ] API keys for OpenAI, Anthropic, HuggingFace configured
-- [ ] TryHackMe account created + Pre-Security path started
-- [ ] HackTheBox account created
-- [ ] Gandalf AI — at least 5 levels completed
-- [ ] First garak scan completed and documented
-- [ ] First LinkedIn post published
-- [ ] GitHub repo live and public
-- [ ] MITRE ATLAS notes created
-- [ ] DeepLearning.AI red teaming course completed
+**Environment:**
+- [ ] Python + garak + PyRIT + ART all installed
+- [ ] Ollama running with llama3.2:1b
+- [ ] Docker installed
+- [ ] API keys configured for OpenAI, Anthropic, HuggingFace
+- [ ] GitHub repo live and CLAUDE.md loading correctly
 
-**When all boxes are checked → move to Chapter 1**
+**Accounts:**
+- [ ] TryHackMe: Pre-Security path started
+- [ ] HackTheBox: account created
+- [ ] Gandalf AI: at least 5 levels completed
+
+**First outputs:**
+- [ ] garak scan: completed and documented in portfolio/
+- [ ] PyRIT: quickstart notebook run
+- [ ] MITRE ATLAS notes: created
+- [ ] NIST AI RMF notes: 4 functions written
+- [ ] EU AI Act risk tiers: cheatsheet created
+
+**Public presence:**
+- [ ] GitHub repo: public, CLAUDE.md in root
+- [ ] LinkedIn: headline updated
+- [ ] LinkedIn: first post published
+
+**Karpathy:**
+- [ ] Videos 1–6 watched, insights in karpathy-watch-log.md
+
+**Startup:**
+- [ ] PracticeCLB: first testing session done, bugs logged
+- [ ] Mediqrate: first testing session done, bugs logged
+
+**When all complete → Chapter 1 (Days 4–18)**

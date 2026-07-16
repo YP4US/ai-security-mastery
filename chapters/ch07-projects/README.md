@@ -1,12 +1,33 @@
 # Chapter 7: Portfolio Projects — Build What Gets You Hired
-## Days 85–100 | October 6–21, 2026
+## Days 86–101 | October 6–21, 2026
 
 > **Goal:** Two polished, live, publicly accessible projects that prove you can do the job before you have the title. These are your interview tickets.
+
+
+> **Daily startup block (10:30–11:30) runs throughout this chapter.**
+> Every morning: test Mediqrate + PracticeCLB, fix bugs, advance launch tasks.
+> This is non-negotiable — it runs in parallel with all study chapters.
+>
+> **Your daily schedule during this chapter:**
+> ```
+> 10:30–11:30  🚀 Startup (Mediqrate + PracticeCLB)
+> 11:30–12:30  🟡 Warm-up: Track A governance reading / Anki
+> 12:30–13:30  🍽️ Lunch
+> 13:30–16:00  🔴 Deep Work 1: this chapter's content
+> 16:00–16:15  ☀️ Break
+> 16:15–18:30  🔴 Deep Work 2: labs / practice / tools
+> 18:30–19:30  🍽️ Dinner
+> 19:30–20:00  🌿 Reset
+> 20:00–21:15  🟡 Portfolio + LinkedIn + job research
+> 21:15–22:30  🎬 Karpathy videos (2/evening until series done ~Day 8)
+> 22:45–23:00  📝 Evening check-in → Claude commits
+> ```
+
 
 ---
 
 ## Project 1: LLM Red-Teaming Dashboard
-**Days 85–93 | October 6–14**
+**Days 86–94 | October 6–14**
 
 ### What You're Building
 A web-based tool that automatically runs adversarial test suites against any OpenAI-compatible LLM endpoint and generates a structured vulnerability report. Think: automated AI penetration testing as a service.
@@ -20,7 +41,7 @@ A web-based tool that automatically runs adversarial test suites against any Ope
 
 ### Day-by-Day Build Plan
 
-#### Day 85 — Architecture + Scaffolding
+#### Day 86 — Architecture + Scaffolding
 ```bash
 mkdir -p portfolio/llm-redteam-dashboard/{backend,frontend,reports}
 cd portfolio/llm-redteam-dashboard
@@ -39,7 +60,7 @@ backend/
     └── schemas.py       # Pydantic models
 ```
 
-#### Day 86 — garak Integration
+#### Day 87 — garak Integration
 ```python
 # backend/scanners/garak_runner.py
 import subprocess
@@ -85,7 +106,7 @@ class GarakScanner:
         }
 ```
 
-#### Day 87 — Custom Attack Suite
+#### Day 88 — Custom Attack Suite
 ```python
 # backend/scanners/manual_tests.py
 # 20 hand-crafted attack prompts across 5 categories
@@ -120,7 +141,7 @@ ATLAS_ALIGNED_TESTS = {
 }
 ```
 
-#### Day 88 — FastAPI Backend
+#### Day 89 — FastAPI Backend
 ```python
 # backend/main.py
 from fastapi import FastAPI, BackgroundTasks
@@ -185,7 +206,7 @@ def generate_executive_summary(results):
     }
 ```
 
-#### Days 89–91 — React Frontend
+#### Days 90–92 — React Frontend
 Build a clean dashboard showing:
 - Model selector (dropdown: OpenAI, Ollama, Anthropic)
 - Probe selector (checkboxes)
@@ -195,7 +216,7 @@ Build a clean dashboard showing:
 - "Download PDF Report" button
 - MITRE ATLAS mapping for each finding
 
-#### Day 92 — PDF Report Generator
+#### Day 93 — PDF Report Generator
 ```python
 # Use WeasyPrint or ReportLab to generate professional PDF reports
 pip install weasyprint jinja2
@@ -204,7 +225,7 @@ pip install weasyprint jinja2
 # Then convert to PDF — matches the visual style of your resume
 ```
 
-#### Day 93 — Deploy + Document
+#### Day 94 — Deploy + Document
 - Deploy backend to AWS Lambda (free tier)
 - Deploy frontend to Vercel (free tier)
 - Write comprehensive README.md for the GitHub repo
@@ -214,12 +235,12 @@ pip install weasyprint jinja2
 ---
 
 ## Project 2: Mediqrate AI Security Audit — White Paper
-**Days 94–100 | October 15–21**
+**Days 95–101 | October 15–21**
 
 ### What You're Publishing
 A professional security audit report of Mediqrate's AI pipeline. This shows you can audit a REAL production system, communicate findings professionally, and understand healthcare AI security requirements.
 
-#### Day 94 — Formal Threat Model
+#### Day 95 — Formal Threat Model
 Create a complete threat model for Mediqrate's AI features:
 ```markdown
 # Mediqrate AI Threat Model
@@ -240,19 +261,19 @@ Create a complete threat model for Mediqrate's AI features:
 [For each threat actor, document the attack path and mitigations]
 ```
 
-#### Days 95–96 — Conduct and Document Findings
+#### Days 96–97 — Conduct and Document Findings
 Run systematic tests against Mediqrate's AI features:
 - Can Vita AI be made to output another user's health data?
 - Can the TTS endpoint be abused for DDoS (cost exhaustion)?
 - Are there injection vulnerabilities in health data prompts?
 - Is PHI properly encrypted before reaching the LLM context?
 
-#### Days 97–98 — Write the Report
+#### Days 98–99 — Write the Report
 Structure: Executive summary → Technical findings → Mitigations implemented → Lessons learned
 
 **Important:** Sanitize this for public release — no real API keys, no real user data, no unfixed critical vulnerabilities. Only publish after you've fixed everything.
 
-#### Days 99–100 — Publish + Promote
+#### Days 100–101 — Publish + Promote
 - Publish as PDF on GitHub: `yogesh-mediqrate-ai-security-audit.pdf`
 - Publish summary blog post on Medium/Substack
 - Share on LinkedIn with this framing:
