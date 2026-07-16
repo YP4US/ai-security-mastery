@@ -1,6 +1,6 @@
 # CLAUDE.md — AI Security Mastery Repo
 # Yogesh Pawar | Career Pivot + Startup Launch
-# Start: July 15, 2026 | Target offer: December 28, 2026 | 160 days
+# Start: July 16, 2026 (Jul 15 not run — Day 1 shifted +1) | Target offer: December 28, 2026 | 160 days
 
 ---
 
@@ -195,7 +195,7 @@ After all answers, automatically:
 
 | Date | Event |
 |------|-------|
-| July 15, 2026 | Day 1 |
+| July 16, 2026 | Day 1 (Ch00 compressed to 2 days: Jul 16–17; Ch01 starts Jul 18 as originally scheduled) |
 | August 1, 2026 | PracticeCLB public launch |
 | August 15, 2026 | Mediqrate Android Play Store live |
 | August 18, 2026 | Security+ exam target |

@@ -1,5 +1,5 @@
 # Chapter 00B: AI Governance Track (Track A)
-## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 15 – Sep 1, 2026
+## Runs PARALLEL to Ch01–Ch03 | Weeks 1–6 | Jul 16 – Sep 1, 2026
 ## 🎯 Target: Apply for Track A roles confidently by September 1, 2026
 
 > **This chapter runs in two daily slots:
@@ -71,7 +71,7 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ---
 
-## WEEK 1 (Jul 15–21): Foundation Frameworks
+## WEEK 1 (Jul 16–21): Foundation Frameworks
 
 ### 🎓 AIGP Content Study (Exam DEFERRED — see README)
 
@@ -99,7 +99,7 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ### Day-by-Day: Week 1
 
-#### Day 1 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): The Three Pillars
+#### Day 1 (Jul 16) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): The Three Pillars
 **Afternoon (11:30–12:30): NIST AI RMF**
 
 This is the most important framework for Canadian employers. Read it today.
@@ -166,7 +166,7 @@ Write your first LinkedIn post as an AI Governance professional:
 
 ---
 
-#### Day 2 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): NIST AI RMF Deep Dive
+#### Day 2 (Jul 17) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): NIST AI RMF Deep Dive
 
 **Read:** The full NIST AI RMF Core (Playbook): https://airc.nist.gov/Docs/2
 Focus on: GOVERN 1.1, GOVERN 1.2, MAP 1.1, MEASURE 2.1

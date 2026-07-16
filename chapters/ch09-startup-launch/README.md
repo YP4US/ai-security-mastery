@@ -1,5 +1,5 @@
 # Chapter 09: Startup Launch — Mediqrate + PracticeCLB
-## Runs parallel to all chapters | July 15 – August 31, 2026
+## Runs parallel to all chapters | July 16 – August 31, 2026
 ## Daily time: 10:30–11:30 (1 hour every morning, protected)
 
 > This chapter exists because your startups are not a distraction from your
@@ -52,7 +52,7 @@
 
 ## WEEK-BY-WEEK STARTUP SCHEDULE
 
-### Weeks 1–2 (Jul 15–28): Testing Sprint
+### Weeks 1–2 (Jul 16–28): Testing Sprint
 
 **Every morning 10:30–11:30:**
 
@@ -83,7 +83,7 @@
 **Bug log format** — save to `chapters/ch09-startup-launch/bug-log.md`:
 ```
 | Date | App | Severity | Description | Status |
-| Jul 15 | PracticeCLB | HIGH | Stripe webhook not firing on cancellation | Open |
+| Jul 16 | PracticeCLB | HIGH | Stripe webhook not firing on cancellation | Open |
 ```
 
 ### Weeks 3–4 (Jul 29–Aug 11): Fix + Polish

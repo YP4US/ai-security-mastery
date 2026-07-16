@@ -1,5 +1,5 @@
 # 🛡️ AI Security Mastery — Yogesh Pawar's Career Pivot Roadmap
-### Dual-Track + Startup Launch Plan | July 15 → December 28, 2026
+### Dual-Track + Startup Launch Plan | July 16 → December 28, 2026 (160 days; Day 1 shifted from Jul 15 — that day was not run)
 ### Version 5 — Financial Reality Edition
 
 > **Situation:** 4–5 months financial runway · Two apps in pre-launch testing ·
@@ -23,7 +23,7 @@ follow today's plan → evening check-in → Claude commits
 Here is the complete strategy based on your actual situation:
 
 ```
-MONTH 1 (Jul 15 – Aug 14): Launch + Learn
+MONTH 1 (Jul 16 – Aug 14): Launch + Learn
   → PracticeCLB: finish testing, launch publicly
   → Mediqrate: finish Android testing, submit to Play Store
   → Study: Track A foundations + Track B Ch01
@@ -123,9 +123,9 @@ The previous schedule had no time for your startups. Fixed here.
 
 | Phase | Dates | Chapter | Focus | Track | Status |
 |-------|-------|---------|-------|-------|--------|
-| **0** | Jul 15–17 | Ch00 | Setup + environment | Both | ⬜ |
-| **0B** | Jul 15–Sep 7 | Ch00B | AI Governance (parallel afternoons) | A | ⬜ |
-| **S** | Jul 15–Aug 31 | Ch09 | **Startup launch** (parallel mornings) | — | ⬜ |
+| **0** | Jul 16–17 | Ch00 | Setup + environment (compressed from 3→2 days; Jul 15 lost) | Both | ⬜ |
+| **0B** | Jul 16–Sep 7 | Ch00B | AI Governance (parallel afternoons) | A | ⬜ |
+| **S** | Jul 16–Aug 31 | Ch09 | **Startup launch** (parallel mornings) | — | ⬜ |
 | **1** | Jul 18–Aug 1 | Ch01 | Python + Linux + Networking + API Security | B | ⬜ |
 | **2** | Aug 2–Aug 18 | Ch02 | CompTIA Security+ (extended — less cramming) | B | ⬜ |
 | **3** | Aug 19–Sep 1 | Ch03 | AWS SAA-C03 | B | ⬜ |
@@ -186,7 +186,7 @@ ai-security-mastery/
 ├── .gitignore
 ├── .claude/rules/
 ├── chapters/
-│   ├── ch00-orientation/          ← Days 1–3
+│   ├── ch00-orientation/          ← Days 1–2 (Jul 16–17)
 │   ├── ch00b-ai-governance-track/ ← Track A (parallel, no AIGP exam yet)
 │   ├── ch01-foundations/          ← Python + Linux + API Security
 │   ├── ch02-security-core/        ← Security+ (extended to 17 days)
@@ -237,4 +237,4 @@ JOB SEARCH:
   https://www.glassdoor.ca
 ```
 
-*Start: July 15, 2026 · Target offer: December 28, 2026 · 160 days*
+*Start: July 16, 2026 (Jul 15 not run — Day 1 shifted) · Target offer: December 28, 2026 · 160 days*

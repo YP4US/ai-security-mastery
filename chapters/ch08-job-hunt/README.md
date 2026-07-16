@@ -130,7 +130,7 @@ If you start in a Track A role, aim to move into a hybrid Track A+B role (AI Sec
 
 *Read this on the day you get your offer.*
 
-You started on July 15, 2026 with rusty skills, two unfinished startups, a 2-year career gap, and a feeling that you were behind.
+You started on July 16, 2026 with rusty skills, two unfinished startups, a 2-year career gap, and a feeling that you were behind.
 
 By December 28:
 - You published 9 papers before most people knew "AI red teaming" was a job title

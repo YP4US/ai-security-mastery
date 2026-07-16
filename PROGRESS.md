@@ -3,7 +3,7 @@
 Update every Sunday during evening check-in.
 
 ## Overall Progress
-- **Start date:** July 15, 2026
+- **Start date:** July 16, 2026 (Jul 15 not run — Day 1 shifted +1; Ch00 compressed to 2 days, rest of plan unchanged)
 - **Track A applications start:** September 1, 2026
 - **Track B applications start:** September 29, 2026
 - **AIGP exam:** Deferred — buy AFTER first paycheck
@@ -46,7 +46,7 @@ Series: karpathy.ai/zero-to-hero.html — ALL FREE, watch 21:15–22:30
 | 7 | **Let's build GPT: from scratch, in code** ⭐ | ⬜ | |
 | 8 | **Let's build the GPT Tokenizer** ⭐ | ⬜ | |
 
-Target complete: ~Day 8 (July 22)
+Target complete: ~Day 8 (July 23)
 
 ---
 
@@ -130,7 +130,7 @@ Target complete: ~Day 8 (July 22)
 
 ## Key Milestones
 
-- [ ] Day 3: Environment fully set up
+- [ ] Day 2: Environment fully set up (compressed from 3→2 days)
 - [ ] Day 8: Karpathy series complete (8 videos)
 - [ ] Day 17 (Aug 1): PracticeCLB public launch
 - [ ] Day 31 (Aug 15): Mediqrate Android on Play Store
