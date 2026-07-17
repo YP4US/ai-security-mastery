@@ -1,6 +1,6 @@
 # Karpathy "Neural Networks: Zero to Hero" — Watch Log
 # Replaces Vizuara (some videos were members-only — do NOT pay)
-# 2 videos per evening during 21:00–22:30 slot
+# 2 videos per evening during 9:00 PM–10:30 PM slot
 
 ## Series Links (ALL FREE)
 - Full series index: https://karpathy.ai/zero-to-hero.html

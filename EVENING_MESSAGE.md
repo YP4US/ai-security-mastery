@@ -1,4 +1,4 @@
-# 🌙 Evening Message — Every Evening at 22:45
+# 🌙 Evening Message — Every Evening at 10:45 PM
 
 Open Claude Code in VS Code and send:
 

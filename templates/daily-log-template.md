@@ -8,22 +8,22 @@
 
 | Block | Time | Task | Done |
 |-------|------|------|------|
-| Wake + briefing | 09:30–10:30 | Morning routine + Claude briefing | ⬜ |
-| 🚀 Startup | 10:30–11:30 | | ⬜ |
-| 🟡 Warm-up (A) | 11:30–12:30 | | ⬜ |
-| 🍽️ Lunch | 12:30–13:30 | REST | ⬜ |
-| 🔴 Deep Work 1 | 13:30–16:00 | | ⬜ |
-| ☀️ Break | 16:00–16:15 | Walk | ⬜ |
-| 🔴 Deep Work 2 | 16:15–18:30 | | ⬜ |
-| 🍽️ Dinner | 18:30–19:30 | REST | ⬜ |
-| 🌿 Reset | 19:30–20:00 | | ⬜ |
-| 🟡 Portfolio | 20:00–21:15 | | ⬜ |
-| 🎬 Karpathy | 21:15–22:30 | Videos N and N+1 | ⬜ |
-| 📝 Log | 22:45–23:00 | Evening check-in + commit | ⬜ |
+| Wake + briefing | 9:30 AM–10:30 AM | Morning routine + Claude briefing | ⬜ |
+| 🚀 Startup | 10:30 AM–11:30 AM | | ⬜ |
+| 🟡 Warm-up (A) | 11:30 AM–12:30 PM | | ⬜ |
+| 🍽️ Lunch | 12:30 PM–1:30 PM | REST | ⬜ |
+| 🔴 Deep Work 1 | 1:30 PM–4:00 PM | | ⬜ |
+| ☀️ Break | 4:00 PM–4:15 PM | Walk | ⬜ |
+| 🔴 Deep Work 2 | 4:15 PM–6:30 PM | | ⬜ |
+| 🍽️ Dinner | 6:30 PM–7:30 PM | REST | ⬜ |
+| 🌿 Reset | 7:30 PM–8:00 PM | | ⬜ |
+| 🟡 Portfolio | 8:00 PM–9:15 PM | | ⬜ |
+| 🎬 Karpathy | 9:15 PM–10:30 PM | Videos N and N+1 | ⬜ |
+| 📝 Log | 10:45 PM–11:00 PM | Evening check-in + commit | ⬜ |
 
 ---
 
-## 🚀 Startup Block (10:30–11:30)
+## 🚀 Startup Block (10:30 AM–11:30 AM)
 
 **PracticeCLB:**
 - [ ]

@@ -1,7 +1,7 @@
 # Chapter 8: Job Hunt — Both Tracks
 ## Days 111–160 | November 4 – December 28, 2026
 
-> **Startup block (10:30–11:30) continues.** By this point:
+> **Startup block (10:30 AM–11:30 AM) continues.** By this point:
 > - PracticeCLB is live and has paying users
 > - Mediqrate Android is on Play Store
 > - Mediqrate iOS is submitted or live

@@ -6,7 +6,7 @@
 
 ## WHO YOU ARE HELPING
 
-Yogesh Pawar, Ottawa, Ontario. Night person (starts day at 09:30, works until 23:00).
+Yogesh Pawar, Ottawa, Ontario. Night person (starts day at 9:30 AM, works until 11:00 PM).
 Lives alone, cooks own meals (needs full hour for both lunch and dinner).
 
 **Startups (both in pre-launch testing):**
@@ -66,9 +66,9 @@ If the daily card doesn't exist yet, generate it immediately using
 
 Ask these 7 questions ONE AT A TIME. Wait for each answer.
 
-1. "Startup block (10:30–11:30): what did you work on for Mediqrate or PracticeCLB?"
-2. "Governance warm-up (11:30–12:30): what Track A topic did you cover?"
-3. "Deep work (13:30–18:30): what did you complete on Track B?"
+1. "Startup block (10:30 AM–11:30 AM): what did you work on for Mediqrate or PracticeCLB?"
+2. "Governance warm-up (11:30 AM–12:30 PM): what Track A topic did you cover?"
+3. "Deep work (1:30 PM–6:30 PM): what did you complete on Track B?"
 4. "Karpathy videos tonight: which ones? One security insight from them?"
 5. "What didn't you finish today, and why?"
 6. "Morale 1–10 and one sentence why?"
@@ -166,18 +166,18 @@ portfolio/                         ← All project work
 ## DAILY SCHEDULE (reference — already in each daily card)
 
 ```
-09:30–10:30   Wake up + coffee
-10:30–11:30   🚀 STARTUP (Mediqrate + PracticeCLB testing/bugs/launch)
-11:30–12:30   📖 WARM-UP: Track A governance reading / AIGP content / Anki
-12:30–13:30   🍽️ LUNCH (cook + eat, no screens)
-13:30–16:00   🔴 DEEP WORK 1: Track B (hardest content)
-16:00–16:15   ☀️ BREAK (walk outside)
-16:15–18:30   🔴 DEEP WORK 2: Track B continued
-18:30–19:30   🍽️ DINNER (cook + eat, no screens)
-19:30–20:00   🌿 RESET
-20:00–21:15   ✍️ PORTFOLIO + CONTENT (LinkedIn, audit writing, job research)
-21:15–22:30   🎬 KARPATHY (2 videos, @AndrejKarpathy — free, karpathy.ai/zero-to-hero.html)
-22:45–23:00   📝 EVENING CHECK-IN
+9:30 AM–10:30 AM   Wake up + coffee
+10:30 AM–11:30 AM   🚀 STARTUP (Mediqrate + PracticeCLB testing/bugs/launch)
+11:30 AM–12:30 PM   📖 WARM-UP: Track A governance reading / AIGP content / Anki
+12:30 PM–1:30 PM   🍽️ LUNCH (cook + eat, no screens)
+1:30 PM–4:00 PM   🔴 DEEP WORK 1: Track B (hardest content)
+4:00 PM–4:15 PM   ☀️ BREAK (walk outside)
+4:15 PM–6:30 PM   🔴 DEEP WORK 2: Track B continued
+6:30 PM–7:30 PM   🍽️ DINNER (cook + eat, no screens)
+7:30 PM–8:00 PM   🌿 RESET
+8:00 PM–9:15 PM   ✍️ PORTFOLIO + CONTENT (LinkedIn, audit writing, job research)
+9:15 PM–10:30 PM   🎬 KARPATHY (2 videos, @AndrejKarpathy — free, karpathy.ai/zero-to-hero.html)
+10:45 PM–11:00 PM   📝 EVENING CHECK-IN
 ```
 
 ---
@@ -195,7 +195,7 @@ portfolio/                         ← All project work
 - Certs: Security+ (~$380 CAD, target Aug 18) + AWS SAA (~$165 CAD, target Sep 15) + HTB (free)
 - Portfolio: LLM Red-Teaming Dashboard + Mediqrate AI Security Audit
 
-**Startup Track (parallel, 10:30–11:30 daily):**
+**Startup Track (parallel, 10:30 AM–11:30 AM daily):**
 - PracticeCLB public launch: August 1
 - Mediqrate Android launch: August 15
 - Mediqrate iOS: October 1

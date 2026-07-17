@@ -35,7 +35,7 @@ Update every Sunday during evening check-in.
 
 ## Karpathy "Neural Networks: Zero to Hero" (8 free videos)
 
-Series: karpathy.ai/zero-to-hero.html — ALL FREE, watch 21:15–22:30
+Series: karpathy.ai/zero-to-hero.html — ALL FREE, watch 9:15 PM–10:30 PM
 
 | # | Video Title | Watched | Security Insight |
 |---|-------------|---------|-----------------|

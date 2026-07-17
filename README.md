@@ -86,43 +86,43 @@ At ~$380 CAD, Security+ has the best ROI of any cert in your plan. It opens Cana
 The previous schedule had no time for your startups. Fixed here.
 
 ```
-09:30 – 10:00   Wake up + morning routine
-10:00 – 10:30   Coffee + Claude Code morning briefing
+9:30 AM – 10:00 AM   Wake up + morning routine
+10:00 AM – 10:30 AM   Coffee + Claude Code morning briefing
 
 ── STARTUP BLOCK (every morning — non-negotiable) ────────────────
-10:30 – 11:30   🚀 STARTUP TIME — Mediqrate + PracticeCLB
+10:30 AM – 11:30 AM   🚀 STARTUP TIME — Mediqrate + PracticeCLB
                  Testing, bug fixes, user feedback, store submission tasks
                  This block is PROTECTED — do not sacrifice it for study
 
 ── WARM-UP (Track A — medium cognitive load) ─────────────────────
-11:30 – 12:30   🟡 TRACK A warm-up — AIGP content study (even without exam),
+11:30 AM – 12:30 PM   🟡 TRACK A warm-up — AIGP content study (even without exam),
                  NIST AI RMF, EU AI Act reading, Anki flashcards
 
-12:30 – 13:30   🍽️  LUNCH (full hour, no screens — you cook, you need this)
+12:30 PM – 1:30 PM   🍽️  LUNCH (full hour, no screens — you cook, you need this)
 
 ── PEAK HOURS (hardest work of the day) ──────────────────────────
-13:30 – 16:00   🔴 DEEP WORK 1 — Track B (labs, TryHackMe, tools, coding)
-16:00 – 16:15   ☀️  Break — walk outside
-16:15 – 18:30   🔴 DEEP WORK 2 — Track B continuation OR Track A deep work
+1:30 PM – 4:00 PM   🔴 DEEP WORK 1 — Track B (labs, TryHackMe, tools, coding)
+4:00 PM – 4:15 PM   ☀️  Break — walk outside
+4:15 PM – 6:30 PM   🔴 DEEP WORK 2 — Track B continuation OR Track A deep work
 
 ── DINNER + RESET ────────────────────────────────────────────────
-18:30 – 19:30   🍽️  DINNER (full hour, no screens)
-19:30 – 20:00   🌿 Reset — walk, music, decompress
+6:30 PM – 7:30 PM   🍽️  DINNER (full hour, no screens)
+7:30 PM – 8:00 PM   🌿 Reset — walk, music, decompress
 
 ── EVENING (night person's second wind) ──────────────────────────
-20:00 – 21:15   🟡 PORTFOLIO + CONTENT — LinkedIn post, audit writing,
+8:00 PM – 9:15 PM   🟡 PORTFOLIO + CONTENT — LinkedIn post, audit writing,
                  job research (save 3 roles), startup marketing post
-21:15 – 22:30   🟡 KARPATHY + LIGHT STUDY — 2 Karpathy videos,
+9:15 PM – 10:30 PM   🟡 KARPATHY + LIGHT STUDY — 2 Karpathy videos,
                  Anki, practice questions, 1 article
-22:30 – 22:45   Break
-22:45 – 23:00   📝 Evening Claude Code check-in → updates + commit
+10:30 PM – 10:45 PM   Break
+10:45 PM – 11:00 PM   📝 Evening Claude Code check-in → updates + commit
 
-23:00 →         Wind down. No screens past 23:30.
+11:00 PM →         Wind down. No screens past 11:30 PM.
 ```
 
 **Total productive hours: ~9.5/day**
 **Startup time: 1 hour every morning, protected**
-**Key change from v4:** Lunch moved to 12:30 (you start later now). Startup block added 10:30–11:30.
+**Key change from v4:** Lunch moved to 12:30 PM (you start later now). Startup block added 10:30 AM–11:30 AM.
 
 ---
 

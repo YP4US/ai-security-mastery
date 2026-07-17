@@ -20,7 +20,7 @@ You never need to open any other file during your day.
 
 **Step 2:** Work through it. Don't try to do everything — just start at the top and work down.
 
-**Step 3:** At 22:45, open Claude Code and send: `Evening check-in. Day 1. Ready.`
+**Step 3:** At 10:45 PM, open Claude Code and send: `Evening check-in. Day 1. Ready.`
 
 ---
 

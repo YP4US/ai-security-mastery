@@ -4,23 +4,23 @@
 > **Goal:** Solid enough Python, Linux, networking, and API security to not get stuck during security labs. You already know Python — this is a focused refresh toward *security use cases*.
 
 
-> **Daily startup block (10:30–11:30) runs throughout this chapter.**
+> **Daily startup block (10:30 AM–11:30 AM) runs throughout this chapter.**
 > Every morning: test Mediqrate + PracticeCLB, fix bugs, advance launch tasks.
 > This is non-negotiable — it runs in parallel with all study chapters.
 >
 > **Your daily schedule during this chapter:**
 > ```
-> 10:30–11:30  🚀 Startup (Mediqrate + PracticeCLB)
-> 11:30–12:30  🟡 Warm-up: Track A governance reading / Anki
-> 12:30–13:30  🍽️ Lunch
-> 13:30–16:00  🔴 Deep Work 1: this chapter's content
-> 16:00–16:15  ☀️ Break
-> 16:15–18:30  🔴 Deep Work 2: labs / practice / tools
-> 18:30–19:30  🍽️ Dinner
-> 19:30–20:00  🌿 Reset
-> 20:00–21:15  🟡 Portfolio + LinkedIn + job research
-> 21:15–22:30  🎬 Karpathy videos (2/evening until series done ~Day 8)
-> 22:45–23:00  📝 Evening check-in → Claude commits
+> 10:30 AM–11:30 AM  🚀 Startup (Mediqrate + PracticeCLB)
+> 11:30 AM–12:30 PM  🟡 Warm-up: Track A governance reading / Anki
+> 12:30 PM–1:30 PM  🍽️ Lunch
+> 1:30 PM–4:00 PM  🔴 Deep Work 1: this chapter's content
+> 4:00 PM–4:15 PM  ☀️ Break
+> 4:15 PM–6:30 PM  🔴 Deep Work 2: labs / practice / tools
+> 6:30 PM–7:30 PM  🍽️ Dinner
+> 7:30 PM–8:00 PM  🌿 Reset
+> 8:00 PM–9:15 PM  🟡 Portfolio + LinkedIn + job research
+> 9:15 PM–10:30 PM  🎬 Karpathy videos (2/evening until series done ~Day 8)
+> 10:45 PM–11:00 PM  📝 Evening check-in → Claude commits
 > ```
 
 

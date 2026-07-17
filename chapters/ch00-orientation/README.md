@@ -9,18 +9,18 @@
 ## Your Schedule Reminder (New — Night Person Edition)
 
 ```
-09:30–10:30   Wake up + coffee + read today's plan
-10:30–11:30   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB testing)
-11:30–12:30   🟡 WARM-UP — Track A (governance reading, Anki)
-12:30–13:30   🍽️ LUNCH (full hour, no screens — you cook)
-13:30–16:00   🔴 DEEP WORK 1 — Track B (labs, tools, coding)
-16:00–16:15   ☀️ BREAK (walk outside)
-16:15–18:30   🔴 DEEP WORK 2 — Track B or Track A heavy work
-18:30–19:30   🍽️ DINNER (full hour, no screens — you cook)
-19:30–20:00   🌿 RESET (walk, music)
-20:00–21:15   🟡 PORTFOLIO + CONTENT (LinkedIn, writing, job research)
-21:15–22:30   🎬 KARPATHY VIDEOS (2 per evening — free on YouTube)
-22:45–23:00   📝 EVENING CHECK-IN (Claude Code → updates files → commits)
+9:30 AM–10:30 AM   Wake up + coffee + read today's plan
+10:30 AM–11:30 AM   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB testing)
+11:30 AM–12:30 PM   🟡 WARM-UP — Track A (governance reading, Anki)
+12:30 PM–1:30 PM   🍽️ LUNCH (full hour, no screens — you cook)
+1:30 PM–4:00 PM   🔴 DEEP WORK 1 — Track B (labs, tools, coding)
+4:00 PM–4:15 PM   ☀️ BREAK (walk outside)
+4:15 PM–6:30 PM   🔴 DEEP WORK 2 — Track B or Track A heavy work
+6:30 PM–7:30 PM   🍽️ DINNER (full hour, no screens — you cook)
+7:30 PM–8:00 PM   🌿 RESET (walk, music)
+8:00 PM–9:15 PM   🟡 PORTFOLIO + CONTENT (LinkedIn, writing, job research)
+9:15 PM–10:30 PM   🎬 KARPATHY VIDEOS (2 per evening — free on YouTube)
+10:45 PM–11:00 PM   📝 EVENING CHECK-IN (Claude Code → updates files → commits)
 ```
 
 ---
@@ -33,19 +33,19 @@ You have 9 published IEEE papers on adversarial ML. You built two production AI 
 
 ## Day 1 — July 15 (Today)
 
-### 🚀 Startup Block (10:30–11:30)
+### 🚀 Startup Block (10:30 AM–11:30 AM)
 - [ ] Open PracticeCLB as a fresh user — go through the full exam flow
 - [ ] Note the first 3 things that feel broken or confusing
 - [ ] Open Mediqrate — go through onboarding as a new user
 - [ ] Log any bugs in `resources/startup-launch-tracker.md`
 
-### 🟡 Warm-up / Track A (11:30–12:30)
+### 🟡 Warm-up / Track A (11:30 AM–12:30 PM)
 - [ ] Read the master README.md top to bottom
 - [ ] Read this file (Ch00) completely
 - [ ] Read chapters/ch00b-ai-governance-track/README.md introduction
 - [ ] Watch one YouTube video: search "AI red teaming explained 2026" (~15 min)
 
-### 🔴 Deep Work 1 — Environment Setup (13:30–16:00)
+### 🔴 Deep Work 1 — Environment Setup (1:30 PM–4:00 PM)
 **Install everything below. Do not skip anything.**
 
 ```bash
@@ -72,9 +72,9 @@ pip install openai anthropic
 pip install chromadb sentence-transformers
 ```
 
-### ☀️ Break (16:00–16:15) — Walk outside
+### ☀️ Break (4:00 PM–4:15 PM) — Walk outside
 
-### 🔴 Deep Work 2 — Environment Setup Continued (16:15–18:30)
+### 🔴 Deep Work 2 — Environment Setup Continued (4:15 PM–6:30 PM)
 ```bash
 # 6. Install Docker
 # https://docs.docker.com/get-docker/
@@ -106,38 +106,38 @@ AWS_SECRET_ACCESS_KEY=your_key_here
 ENVEOF
 ```
 
-### 🍽️ Dinner (18:30–19:30)
+### 🍽️ Dinner (6:30 PM–7:30 PM)
 
-### 🟡 Portfolio/Content (20:00–21:15)
+### 🟡 Portfolio/Content (8:00 PM–9:15 PM)
 - [ ] Create `resources/nist-ai-rmf-notes.md` — write headings for all 4 functions
 - [ ] Create `resources/eu-ai-act-risk-tiers.md` — write the 4 risk tiers with examples
 - [ ] Read: https://mlsecops.com — introduction article
 
-### 🎬 Karpathy (21:15–22:30)
+### 🎬 Karpathy (9:15 PM–10:30 PM)
 - [ ] Watch Video 1: "The spelled-out intro to neural networks and backpropagation"
 - [ ] Watch Video 2: "The spelled-out intro to language modeling: building makemore"
 - [ ] Mark both ✅ in resources/karpathy-watch-log.md with one security insight
 
-### 📝 Evening check-in (22:45)
+### 📝 Evening check-in (10:45 PM)
 Send "Evening check-in. Ready." to Claude Code.
 
 ---
 
 ## Day 2 — July 16
 
-### 🚀 Startup Block (10:30–11:30)
+### 🚀 Startup Block (10:30 AM–11:30 AM)
 - [ ] PracticeCLB: fix or document the highest-severity bug from yesterday
 - [ ] Mediqrate: test the Vita AI chat flow end-to-end
 - [ ] Update bug log in `resources/startup-launch-tracker.md`
 
-### 🟡 Warm-up / Track A (11:30–12:30)
+### 🟡 Warm-up / Track A (11:30 AM–12:30 PM)
 **MITRE ATLAS — This is your bible. Learn it today.**
 - [ ] Go to: https://atlas.mitre.org
 - [ ] Read the "About" section completely
 - [ ] Browse ALL tactics in the left sidebar — for each one write 1 sentence in your own words
 - [ ] Save to: `resources/mitre-atlas-notes.md`
 
-### 🔴 Deep Work 1 (13:30–16:00): First garak Scan
+### 🔴 Deep Work 1 (1:30 PM–4:00 PM): First garak Scan
 ```bash
 # Activate environment
 source ~/security-env/bin/activate
@@ -164,13 +164,13 @@ cat portfolio/day2-first-garak-scan.jsonl | python3 -m json.tool | head -50
 2. What did it find?
 3. What do you not understand about the output yet?
 
-### 🔴 Deep Work 2 (16:15–18:30): DeepLearning.AI Course
+### 🔴 Deep Work 2 (4:15 PM–6:30 PM): DeepLearning.AI Course
 - [ ] Go to: https://learn.deeplearning.ai/courses/red-teaming-llm-applications
 - [ ] Complete ALL lessons (free, ~1 hour total)
 - [ ] Save notes to: `resources/deeplearningai-redteaming-notes.md`
 - [ ] Try Gandalf AI: https://gandalf.lakera.ai — attempt levels 1–7
 
-### 🟡 Portfolio/Content (20:00–21:15)
+### 🟡 Portfolio/Content (8:00 PM–9:15 PM)
 - [ ] Write your first LinkedIn post (this is important — do not skip):
 
 ```
@@ -182,7 +182,7 @@ the same attack class I studied in 2020 — different model architecture.
 #AISecurity #LLMSecurity #AIRedTeaming"
 ```
 
-### 🎬 Karpathy (21:15–22:30)
+### 🎬 Karpathy (9:15 PM–10:30 PM)
 - [ ] Watch Video 3: "Building makemore Part 2: MLP"
 - [ ] Watch Video 4: "Building makemore Part 3: Activations, Gradients, BatchNorm"
 - [ ] Mark ✅ in karpathy-watch-log.md
@@ -191,16 +191,16 @@ the same attack class I studied in 2020 — different model architecture.
 
 ## Day 3 — July 17
 
-### 🚀 Startup Block (10:30–11:30)
+### 🚀 Startup Block (10:30 AM–11:30 AM)
 - [ ] PracticeCLB: test payment flow (Stripe test mode) — buy a plan as a user
 - [ ] Mediqrate: test subscription purchase + restore (RevenueCat test mode)
 - [ ] Document any issues
 
-### 🟡 Warm-up / Track A (11:30–12:30)
+### 🟡 Warm-up / Track A (11:30 AM–12:30 PM)
 - [ ] Read: https://artificialintelligenceact.eu — complete overview (~30 min)
 - [ ] Update `resources/eu-ai-act-risk-tiers.md` with what you just learned
 
-### 🔴 Deep Work 1 (13:30–16:00): PyRIT Introduction
+### 🔴 Deep Work 1 (1:30 PM–4:00 PM): PyRIT Introduction
 ```bash
 # Install PyRIT (Microsoft's AI red teaming toolkit)
 pip install pyrit
@@ -212,18 +212,18 @@ jupyter notebook
 # Create: portfolio/day3-pyrit-intro.ipynb
 ```
 
-### 🔴 Deep Work 2 (16:15–18:30): GitHub + LinkedIn Setup
+### 🔴 Deep Work 2 (4:15 PM–6:30 PM): GitHub + LinkedIn Setup
 - [ ] Push this repo to GitHub (follow SETUP.sh instructions)
 - [ ] Verify CLAUDE.md loads in Claude Code: type "What project are you working on?"
 - [ ] Update LinkedIn headline:
   `"AI Security & Governance Specialist | Adversarial ML Researcher (9 IEEE Papers) | Founder @ Mediqrate & PracticeCLB"`
 
-### 🟡 Portfolio/Content (20:00–21:15)
+### 🟡 Portfolio/Content (8:00 PM–9:15 PM)
 - [ ] Read Chapter 1 README completely (your next chapter)
 - [ ] Read ch00b README Week 1 section
 - [ ] Enroll in TryHackMe Pre-Security path (free)
 
-### 🎬 Karpathy (21:15–22:30)
+### 🎬 Karpathy (9:15 PM–10:30 PM)
 - [ ] Watch Video 5: "Building makemore Part 4: Becoming a Backprop Ninja"
 - [ ] Watch Video 6: "Building makemore Part 5: WaveNet"
 - [ ] Mark ✅ in karpathy-watch-log.md

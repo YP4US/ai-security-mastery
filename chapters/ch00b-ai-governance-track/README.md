@@ -3,17 +3,17 @@
 ## 🎯 Target: Apply for Track A roles confidently by September 1, 2026
 
 > **This chapter runs in two daily slots:
-- **Warm-up slot (11:30–12:30):** Governance reading, AIGP content, Anki flashcards
-- **Portfolio slot (20:00–21:15):** Writing governance documents, audit reports, LinkedIn posts
+- **Warm-up slot (11:30 AM–12:30 PM):** Governance reading, AIGP content, Anki flashcards
+- **Portfolio slot (8:00 PM–9:15 PM):** Writing governance documents, audit reports, LinkedIn posts
 
-Your **Deep Work slots (13:30–18:30)** remain for Track B (security fundamentals).**
+Your **Deep Work slots (1:30 PM–6:30 PM)** remain for Track B (security fundamentals).**
 > By the end of Week 6 you will have: AIGP certification in progress, a published AI governance framework analysis, a documented AI risk assessment of your own products, and a vocabulary that makes you immediately credible to Risk, Compliance, and Legal teams at Canadian banks, consulting firms, and government agencies.
 
 ---
 
-> **Startup block (10:30–11:30) runs every morning in parallel.**
-> This chapter uses the **warm-up slot (11:30–12:30)** and
-> **portfolio slot (20:00–21:15)** each day — NOT the deep work blocks
+> **Startup block (10:30 AM–11:30 AM) runs every morning in parallel.**
+> This chapter uses the **warm-up slot (11:30 AM–12:30 PM)** and
+> **portfolio slot (8:00 PM–9:15 PM)** each day — NOT the deep work blocks
 > (those stay for Track B). Check Ch09 for today's startup task.
 
 
@@ -99,8 +99,8 @@ The gap is vocabulary, not substance. This chapter closes the vocabulary gap in 
 
 ### Day-by-Day: Week 1
 
-#### Day 1 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): The Three Pillars
-**Afternoon (11:30–12:30): NIST AI RMF**
+#### Day 1 (Jul 15) — 11:30 AM–12:30 PM (warm-up) + 8:00 PM–9:15 PM (portfolio): The Three Pillars
+**Afternoon (11:30 AM–12:30 PM): NIST AI RMF**
 
 This is the most important framework for Canadian employers. Read it today.
 URL: https://airc.nist.gov/RMF_Map
@@ -121,7 +121,7 @@ For each of the 6 categories under GOVERN, write:
 1. What it means in plain English
 2. One example of what this looks like at a Canadian bank
 
-**Afternoon (20:00–21:00): EU AI Act Overview**
+**Afternoon (8:00 PM–9:00 PM): EU AI Act Overview**
 
 URL: https://artificialintelligenceact.eu/the-act/
 
@@ -160,13 +160,13 @@ Create: `resources/eu-ai-act-risk-tiers.md`
 - Most B2B AI tools
 ```
 
-**Project Work (21:00–21:15):**
+**Project Work (9:00 PM–9:15 PM):**
 Write your first LinkedIn post as an AI Governance professional:
 > "The EU AI Act's High-Risk AI tier went into full enforcement on August 2, 2026. As someone who built PIPEDA-compliant AI health systems, here's what I think most companies are missing about their compliance obligations: [3 points]. #AIGovernance #ResponsibleAI #EUAIAct"
 
 ---
 
-#### Day 2 (Jul 15) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): NIST AI RMF Deep Dive
+#### Day 2 (Jul 15) — 11:30 AM–12:30 PM (warm-up) + 8:00 PM–9:15 PM (portfolio): NIST AI RMF Deep Dive
 
 **Read:** The full NIST AI RMF Core (Playbook): https://airc.nist.gov/Docs/2
 Focus on: GOVERN 1.1, GOVERN 1.2, MAP 1.1, MEASURE 2.1
@@ -204,7 +204,7 @@ After controls: [ ] Acceptable [ ] Needs further treatment
 
 ---
 
-#### Day 3 (Jul 16) — 11:30–12:30 (warm-up) + 20:00–21:15 (portfolio): Canadian AI Regulation
+#### Day 3 (Jul 16) — 11:30 AM–12:30 PM (warm-up) + 8:00 PM–9:15 PM (portfolio): Canadian AI Regulation
 
 **Read these (in order, each ~30 min):**
 

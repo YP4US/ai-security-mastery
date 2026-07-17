@@ -1,6 +1,6 @@
 # Chapter 09: Startup Launch — Mediqrate + PracticeCLB
 ## Runs parallel to all chapters | July 15 – August 31, 2026
-## Daily time: 10:30–11:30 (1 hour every morning, protected)
+## Daily time: 10:30 AM–11:30 AM (1 hour every morning, protected)
 
 > This chapter exists because your startups are not a distraction from your
 > career pivot — they ARE part of it. Every employer you interview with can
@@ -54,7 +54,7 @@
 
 ### Weeks 1–2 (Jul 15–28): Testing Sprint
 
-**Every morning 10:30–11:30:**
+**Every morning 10:30 AM–11:30 AM:**
 
 **PracticeCLB testing checklist:**
 - [ ] Complete full exam flow as a real user (all sections, all question types)
@@ -88,7 +88,7 @@
 
 ### Weeks 3–4 (Jul 29–Aug 11): Fix + Polish
 
-**Every morning 10:30–11:30:**
+**Every morning 10:30 AM–11:30 AM:**
 - Work through bug log — fix HIGH severity items first
 - Write App Store / Play Store listing copy
 - Take screenshots for store listings (professional, not debug screenshots)
@@ -206,4 +206,4 @@ These become talking points in every interview:
 - [ ] Career evidence log: 5+ entries
 - [ ] Revenue tracker: weekly updates running
 
-**This chapter never fully closes — maintain the 10:30–11:30 startup block indefinitely.**
+**This chapter never fully closes — maintain the 10:30 AM–11:30 AM startup block indefinitely.**

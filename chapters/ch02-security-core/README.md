@@ -2,7 +2,7 @@
 ## Days 19–35 | August 2–18, 2026 (extended to 17 days)
 ## 🎯 Target: Pass CompTIA Security+ SY0-701 by August 18, 2026
 
-> **Daily startup block (10:30–11:30) continues throughout this chapter.**
+> **Daily startup block (10:30 AM–11:30 AM) continues throughout this chapter.**
 > Mediqrate Android launch target is August 15 — these two things run in parallel.
 > The extra days vs. the original plan give you breathing room to not cram.
 ## Days 19–33 | August 1–14, 2026
@@ -40,17 +40,17 @@
 Each day follows this structure:
 
 ```
-10:30–11:30   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB — testing/bugs/launch)
-11:30–12:30   🟡 WARM-UP — Security+ reading: 1 new domain section
-12:30–13:30   🍽️ LUNCH (full hour, no screens)
-13:30–16:00   🔴 DEEP WORK 1 — Security+ video course + labs
-16:00–16:15   ☀️ BREAK
-16:15–18:30   🔴 DEEP WORK 2 — 50 practice questions minimum
-18:30–19:30   🍽️ DINNER (full hour, no screens)
-19:30–20:00   🌿 RESET
-20:00–21:15   🟡 PORTFOLIO — Track A governance work (ch00b parallel tasks)
-21:15–22:30   🎬 KARPATHY VIDEOS (2 per evening until series done)
-22:45–23:00   📝 EVENING CHECK-IN → Claude commits
+10:30 AM–11:30 AM   🚀 STARTUP BLOCK (Mediqrate + PracticeCLB — testing/bugs/launch)
+11:30 AM–12:30 PM   🟡 WARM-UP — Security+ reading: 1 new domain section
+12:30 PM–1:30 PM   🍽️ LUNCH (full hour, no screens)
+1:30 PM–4:00 PM   🔴 DEEP WORK 1 — Security+ video course + labs
+4:00 PM–4:15 PM   ☀️ BREAK
+4:15 PM–6:30 PM   🔴 DEEP WORK 2 — 50 practice questions minimum
+6:30 PM–7:30 PM   🍽️ DINNER (full hour, no screens)
+7:30 PM–8:00 PM   🌿 RESET
+8:00 PM–9:15 PM   🟡 PORTFOLIO — Track A governance work (ch00b parallel tasks)
+9:15 PM–10:30 PM   🎬 KARPATHY VIDEOS (2 per evening until series done)
+10:45 PM–11:00 PM   📝 EVENING CHECK-IN → Claude commits
 ```
 
 ---
@@ -265,7 +265,7 @@ Security+ has "Performance Based Questions" — drag-and-drop, simulation tasks.
 
 ### Day 33 — EXAM DAY 🎯
 **The night before:**
-- No new studying after 20:00
+- No new studying after 8:00 PM
 - Review your flashcards for 30 min
 - Sleep 8 hours (seriously — this matters more than cramming)
 

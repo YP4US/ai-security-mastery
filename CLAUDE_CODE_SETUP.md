@@ -83,10 +83,10 @@ using the format in CLAUDE.md.
 
 | Time | Action |
 |------|--------|
-| 06:30 | Open VS Code → Claude Code → send morning message from MORNING_MESSAGE.md |
-| 07:00–20:30 | Study according to the briefing |
-| 20:30 | Send evening message from EVENING_MESSAGE.md |
-| 21:00 | Done — Claude handles the git commit |
+| 6:30 AM | Open VS Code → Claude Code → send morning message from MORNING_MESSAGE.md |
+| 7:00 AM–8:30 PM | Study according to the briefing |
+| 8:30 PM | Send evening message from EVENING_MESSAGE.md |
+| 9:00 PM | Done — Claude handles the git commit |
 
 ---
 
