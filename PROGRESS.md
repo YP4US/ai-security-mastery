@@ -3,31 +3,33 @@
 Update every Sunday during evening check-in.
 
 ## Overall Progress
-- **Start date:** July 16, 2026 (Jul 15 not run — Day 1 shifted +1; Ch00 compressed to 2 days, rest of plan unchanged)
+- **Start date:** July 17, 2026 (Day 1)
+- **System:** Daily-card based — see `daily-cards/day-NNN.md` (today's file is the source of truth for tasks)
 - **Track A applications start:** September 1, 2026
 - **Track B applications start:** September 29, 2026
 - **AIGP exam:** Deferred — buy AFTER first paycheck
 - **Target offer:** December 28, 2026
 - **Days completed:** 0 / 160
 - **Current streak:** 0 days 🔥
+- **Latest generated card:** `daily-cards/day-003.md` (July 19) — Day 4 card generated after Day 3 evening check-in
 
 ---
 
-## Chapter Completion
+## Chapter Reference (source material for daily-card generation — not a daily to-do)
 
-| Chapter | Topic | Track | Status | Done |
-|---------|-------|-------|--------|------|
-| Ch00 | Orientation & Setup | Both | ⬜ | — |
-| Ch00B | AI Governance (parallel, no AIGP exam yet) | A | ⬜ | — |
-| Ch09 | Startup Launch (parallel every morning) | — | ⬜ | Ongoing |
-| Ch01 | Python + Linux + API Security | B | ⬜ | — |
-| Ch02 | Security+ (17 days — less cramming) | B | ⬜ | — |
-| Ch03 | AWS SAA-C03 | B | ⬜ | — |
-| Ch04 | LLM Internals + Karpathy | Both | ⬜ | — |
-| Ch05 | AI Red Teaming | B | ⬜ | — |
-| Ch06 | MLSecOps | B | ⬜ | — |
-| Ch07 | Projects (3 weeks) | Both | ⬜ | — |
-| Ch08 | Job Hunt | Both | ⬜ | — |
+| Chapter | Topic | Track | Covered by cards through |
+|---------|-------|-------|---------------------------|
+| Ch00 | Orientation & Setup | Both | Day 3 (Ch00 completes, Ch01 begins Day 4) |
+| Ch00B | AI Governance (parallel, no AIGP exam yet) | A | Ongoing — one topic per card's warm-up block |
+| Ch09 | Startup Launch (parallel every morning) | — | Ongoing — one task per card's startup block |
+| Ch01 | Python + Linux + API Security | B | Day 4 onward |
+| Ch02 | Security+ (17 days — less cramming) | B | — |
+| Ch03 | AWS SAA-C03 | B | — |
+| Ch04 | LLM Internals + Karpathy | Both | — |
+| Ch05 | AI Red Teaming | B | — |
+| Ch06 | MLSecOps | B | — |
+| Ch07 | Projects (3 weeks) | Both | — |
+| Ch08 | Job Hunt | Both | — |
 
 ---
 
@@ -46,7 +48,7 @@ Series: karpathy.ai/zero-to-hero.html — ALL FREE, watch 21:15–22:30
 | 7 | **Let's build GPT: from scratch, in code** ⭐ | ⬜ | |
 | 8 | **Let's build the GPT Tokenizer** ⭐ | ⬜ | |
 
-Target complete: ~Day 8 (July 23)
+Target complete: ~Day 8 (July 24)
 
 ---
 
@@ -130,11 +132,11 @@ Target complete: ~Day 8 (July 23)
 
 ## Key Milestones
 
-- [ ] Day 2: Environment fully set up (compressed from 3→2 days)
+- [ ] Day 3: Ch00 orientation complete (environment set up, garak/PyRIT/Gandalf run, NIST/EU AI Act/MITRE ATLAS notes done)
 - [ ] Day 8: Karpathy series complete (8 videos)
-- [ ] Day 17 (Aug 1): PracticeCLB public launch
-- [ ] Day 31 (Aug 15): Mediqrate Android on Play Store
-- [ ] Day 34 (Aug 18): Security+ exam
+- [ ] Day 16 (Aug 1): PracticeCLB public launch
+- [ ] Day 30 (Aug 15): Mediqrate Android on Play Store
+- [ ] Day 33 (Aug 18): Security+ exam
 - [ ] Sep 1: Track A — 5 applications sent
 - [ ] Sep 15: AWS SAA exam
 - [ ] Sep 22: First Track A interview
