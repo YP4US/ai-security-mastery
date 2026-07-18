@@ -60,5 +60,6 @@
 
 | Date | App | Severity | Description | Fixed Date |
 |------|-----|----------|-------------|------------|
+| 2026-07-17 | PracticeCLB | — | Admin dashboard testing/bug fixing (details not itemized) | — |
 | | | HIGH | | |
 | | | MEDIUM | | |

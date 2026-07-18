@@ -53,3 +53,6 @@ reports/raw/
 # Keep these:
 # !reports/*.pdf  (polished reports are OK to commit)
 # !portfolio/**   (portfolio work should be public)
+
+practiceclb.com_scan_report.txt
+Room-1.txt

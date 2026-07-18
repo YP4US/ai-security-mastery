@@ -9,9 +9,9 @@ Update every Sunday during evening check-in.
 - **Track B applications start:** September 29, 2026
 - **AIGP exam:** Deferred — buy AFTER first paycheck
 - **Target offer:** December 28, 2026
-- **Days completed:** 0 / 160
-- **Current streak:** 0 days 🔥
-- **Latest generated card:** `daily-cards/day-003.md` (July 19) — Day 4 card generated after Day 3 evening check-in
+- **Days completed:** 1 / 160
+- **Current streak:** 1 day 🔥
+- **Latest generated card:** `daily-cards/day-002.md` (July 18) — Day 2 card generated after Day 1 evening check-in
 
 ---
 
