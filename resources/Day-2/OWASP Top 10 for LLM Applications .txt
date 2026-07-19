@@ -1,0 +1,12 @@
+TOP 10
+* Prevent — Prompt Injection
+* Serious — Sensitive Information Disclosure
+* Security — Supply Chain Vulnerabilities
+* Disasters — Data and Model Poisoning
+* Including — Improper Output Handling
+* Every — Excessive Agency
+* Single — System Prompt Leakage
+* Vulnerable — Vector and Embedding Weaknesses
+* Model — Misinformation
+* Update — Unbounded Consumption
+

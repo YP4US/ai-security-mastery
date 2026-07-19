@@ -61,5 +61,6 @@
 | Date | App | Severity | Description | Fixed Date |
 |------|-----|----------|-------------|------------|
 | 2026-07-17 | PracticeCLB | — | Admin dashboard testing/bug fixing (details not itemized) | — |
+| 2026-07-18 | Mediqrate | — | Notification-related bugs found during auth testing (not yet itemized) | — |
 | | | HIGH | | |
 | | | MEDIUM | | |
